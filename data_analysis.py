@@ -50,7 +50,8 @@ def data_preparation():
                     cell.value = values_to_replace[cell.value]
                 # Якщо в непорожньому стовпці є порожня клітинка, вписати в неї "I can't answer"
                 elif cell.value is None and any(cell1.value is not None for cell1 in column):
-                    cell.value = "I can't answer"
+                    # cell.value = "I can't answer"
+                    cell.value = 3
     workbook.save(PREPARED_DATA_FILE)
     workbook.close()
 
@@ -320,8 +321,8 @@ def correlation_calculation():
                             file.write(f"t-stat for differences: {t_statistic}\n")
                             file.write(f"p-value for t-test: {p_value_ttest}\n\n")
 
-#data_preparation()
+data_preparation()
 #histogram_creation()
-# construction_of_graphs()
+construction_of_graphs()
 correlation_calculation()
 
