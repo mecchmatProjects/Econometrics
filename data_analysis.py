@@ -321,8 +321,8 @@ def correlation_calculation():
                             file.write(f"t-stat for differences: {t_statistic}\n")
                             file.write(f"p-value for t-test: {p_value_ttest}\n\n")
 
-data_preparation()
-#histogram_creation()
-construction_of_graphs()
-correlation_calculation()
+# data_preparation()
+histogram_creation()
+# construction_of_graphs()
+# correlation_calculation()
 
