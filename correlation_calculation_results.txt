@@ -1,0 +1,480 @@
+H3_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.4867593751363038
+p-value: 3.5458457418493633e-10
+t-stat for differences: -7.873769819566032
+p-value for t-test: 6.956884089070042e-13
+
+H3_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.4588146880347773
+p-value: 4.500488163407943e-09
+t-stat for differences: -6.873863542433759
+p-value for t-test: 1.6564100293387322e-10
+
+H3_A_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.4620465426249798
+p-value: 3.3935048477270204e-09
+t-stat for differences: -7.014701834578593
+p-value for t-test: 7.816993454172508e-11
+
+H3_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.49122949101618535
+p-value: 2.3109828809453387e-10
+t-stat for differences: -7.908122849069939
+p-value for t-test: 5.733824998558126e-13
+
+H3_B__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.47999397377219655
+p-value: 6.699814335545893e-10
+t-stat for differences: -8.96547875736705
+p-value for t-test: 1.3023466089769426e-15
+
+H3_B_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.47228287150129206
+p-value: 1.360753017657948e-09
+t-stat for differences: -8.093446321440144
+p-value for t-test: 2.0097348362465173e-13
+
+H3_B_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.4765278274352075
+p-value: 9.232662190106876e-10
+t-stat for differences: -8.246485174430285
+p-value for t-test: 8.401065657642094e-14
+
+H3_B__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.4844294825208407
+p-value: 4.421489672408077e-10
+t-stat for differences: -9.003821729987527
+p-value for t-test: 1.0399074149391812e-15
+
+H3_C__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.4923899757073505
+p-value: 2.0658049297544296e-10
+t-stat for differences: -9.20874779899144
+p-value for t-test: 3.110489025891324e-16
+
+H3_C_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.5059096077351554
+p-value: 5.419786328013689e-11
+t-stat for differences: -8.498842644477271
+p-value for t-test: 1.9702283846359474e-14
+
+H3_C_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.5102162118806152
+p-value: 3.495163220904745e-11
+t-stat for differences: -8.660254037844386
+p-value for t-test: 7.7362492552082e-15
+
+H3_C__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.527903482727179
+p-value: 5.40036180612352e-12
+t-stat for differences: -9.547467632459538
+p-value for t-test: 4.171130007297607e-17
+
+H3_D__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.4719966653426621
+p-value: 1.3965427068413247e-09
+t-stat for differences: -4.879296774342903
+p-value for t-test: 2.738716215851466e-06
+
+H3_D_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.47758739515405796
+p-value: 8.373750591930424e-10
+t-stat for differences: -4.114422806875613
+p-value for t-test: 6.43971344180446e-05
+
+H3_D_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.4824802526247898
+p-value: 5.311367643610578e-10
+t-stat for differences: -4.258592098496856
+p-value for t-test: 3.6530253551075376e-05
+
+H3_D__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.507144089982015
+p-value: 4.7823699692482204e-11
+t-stat for differences: -5.049823839234808
+p-value for t-test: 1.2909642755033156e-06
+
+H4_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.07210715241837033
+p-value: 0.3837990038338677
+t-stat for differences: 8.271489113396878
+p-value for t-test: 7.281359969726925e-14
+
+H4_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.035746294716950296
+p-value: 0.6662334699451148
+t-stat for differences: 8.61129838224713
+p-value for t-test: 1.027808224294806e-14
+
+H4_A_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.04963435939719824
+p-value: 0.5491211147682387
+t-stat for differences: 8.579022359692717
+p-value for t-test: 1.2391961951893466e-14
+
+H4_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.027455024560969467
+p-value: 0.7404668073599149
+t-stat for differences: 8.08067216236713
+p-value for t-test: 2.1609501746792052e-13
+
+H5_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: -0.11217886848586814
+p-value: 0.17464392859979833
+t-stat for differences: -5.0144376491066724
+p-value for t-test: 1.511079618262632e-06
+
+H5_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: -0.0866866363828224
+p-value: 0.2948136421134882
+t-stat for differences: -4.597376803387131
+p-value for t-test: 9.147544112991834e-06
+
+H5_A_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: -0.12234507563777881
+p-value: 0.13851522003634056
+t-stat for differences: -4.597426100702443
+p-value for t-test: 9.145653530002953e-06
+
+H5_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: -0.0923194515768867
+p-value: 0.2644320392170098
+t-stat for differences: -5.058731079142738
+p-value for t-test: 1.2406671402042354e-06
+
+H5_B__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: -0.35884744806231295
+p-value: 7.5119626859725415e-06
+t-stat for differences: 8.609612845177107
+p-value for t-test: 1.0379019505777938e-14
+
+H5_B_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: -0.3861920985326627
+p-value: 1.2482719334196927e-06
+t-stat for differences: 9.135203864551372
+p-value for t-test: 4.800513150983128e-16
+
+H5_B_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: -0.3628102252198431
+p-value: 5.8500294701810375e-06
+t-stat for differences: 9.072610041461436
+p-value for t-test: 6.940401116619047e-16
+
+H5_B__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: -0.3909960087846025
+p-value: 8.952179593566534e-07
+t-stat for differences: 8.53528964204827
+p-value for t-test: 1.5960652689398146e-14
+
+H1_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.47500893879239253
+p-value: 1.0613667793671183e-09
+t-stat for differences: -0.268833380424899
+p-value for t-test: 0.7884348376241189
+
+H1_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.45167223128008516
+p-value: 8.312906362896343e-09
+t-stat for differences: 0.5239368319955838
+p-value for t-test: 0.601111528199012
+
+H1_A_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.4573954429106394
+p-value: 5.089814203165761e-09
+t-stat for differences: 0.39449809829563875
+p-value for t-test: 0.6937850851420578
+
+H1_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.4261070725282898
+p-value: 6.681962001442607e-08
+t-stat for differences: -0.25738309342754895
+p-value for t-test: 0.7972429876679238
+
+H1_B__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.47500893879239253
+p-value: 1.0613667793671183e-09
+t-stat for differences: -0.268833380424899
+p-value for t-test: 0.7884348376241189
+
+H1_B_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.45167223128008516
+p-value: 8.312906362896343e-09
+t-stat for differences: 0.5239368319955838
+p-value for t-test: 0.601111528199012
+
+H1_B_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.4573954429106394
+p-value: 5.089814203165761e-09
+t-stat for differences: 0.39449809829563875
+p-value for t-test: 0.6937850851420578
+
+H1_B__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.4261070725282898
+p-value: 6.681962001442607e-08
+t-stat for differences: -0.25738309342754895
+p-value for t-test: 0.7972429876679238
+
+H1_C__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.47500893879239253
+p-value: 1.0613667793671183e-09
+t-stat for differences: -0.268833380424899
+p-value for t-test: 0.7884348376241189
+
+H1_C_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.45167223128008516
+p-value: 8.312906362896343e-09
+t-stat for differences: 0.5239368319955838
+p-value for t-test: 0.601111528199012
+
+H1_C_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.4573954429106394
+p-value: 5.089814203165761e-09
+t-stat for differences: 0.39449809829563875
+p-value for t-test: 0.6937850851420578
+
+H1_C__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.4261070725282898
+p-value: 6.681962001442607e-08
+t-stat for differences: -0.25738309342754895
+p-value for t-test: 0.7972429876679238
+
+H1_D__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.5342726253904363
+p-value: 2.6834829627926873e-12
+t-stat for differences: -0.6989291290414006
+p-value for t-test: 0.48570067250037063
+
+H1_D_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.5093102077766233
+p-value: 3.8350273555177265e-11
+t-stat for differences: 0.13563073087265912
+p-value for t-test: 0.8922987621636942
+
+H1_D_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.5011765856122246
+p-value: 8.715982026932902e-11
+t-stat for differences: 0.0
+p-value for t-test: 1.0
+
+H1_D__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.4415517663874055
+p-value: 1.936513960592425e-08
+t-stat for differences: -0.6389031754322984
+p-value for t-test: 0.5238801709917686
+
+H1_E__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.4928539623862436
+p-value: 1.9749855640630242e-10
+t-stat for differences: -0.39975230886518803
+p-value for t-test: 0.6899192076281593
+
+H1_E_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.45634557355013433
+p-value: 5.572864905902441e-09
+t-stat for differences: 0.38458270489362617
+p-value for t-test: 0.7011024139460666
+
+H1_E_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.47534248923891853
+p-value: 1.0294291790773285e-09
+t-stat for differences: 0.2606634971517877
+p-value for t-test: 0.7947168108385638
+
+H1_E__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.4380100628124361
+p-value: 2.5866942123797668e-08
+t-stat for differences: -0.3798973870055557
+p-value for t-test: 0.7045698894208559
+
+H1_F__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.513716945501126
+p-value: 2.4357254829424826e-11
+t-stat for differences: 1.2987926182306933
+p-value for t-test: 0.19604873983608864
+
+H1_F_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.49974716191304386
+p-value: 1.0046446481989005e-10
+t-stat for differences: 2.0805518943485573
+p-value for t-test: 0.03921022931630759
+
+H1_F_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.5036035316296685
+p-value: 6.837694539401854e-11
+t-stat for differences: 1.9515923062086489
+p-value for t-test: 0.05288760993454064
+
+H1_F__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.46283283821980253
+p-value: 3.1668279017172808e-09
+t-stat for differences: 1.2363848748234538
+p-value for t-test: 0.2182873636602108
+
+H1_G__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.5639412749779888
+p-value: 8.444609190984897e-14
+t-stat for differences: -1.3370830159255642
+p-value for t-test: 0.18326095609283488
+
+H1_G_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.5325514627599669
+p-value: 3.2464013219088325e-12
+t-stat for differences: -0.473944558638178
+p-value for t-test: 0.6362426241225626
+
+H1_G_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.5728407928604637
+p-value: 2.7939025616183473e-14
+t-stat for differences: -0.6367102042841438
+p-value for t-test: 0.52530388029672
+
+H1_G__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.5160039109604363
+p-value: 1.919553544404724e-11
+t-stat for differences: -1.2692789077372886
+p-value for t-test: 0.2063475151652376
+
+H1_H__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.49640863343898567
+p-value: 1.396376416425727e-10
+t-stat for differences: 0.13500706050283764
+p-value for t-test: 0.8927909756948692
+
+H1_H_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.4853270990724633
+p-value: 4.061879531508854e-10
+t-stat for differences: 0.9308459577399364
+p-value for t-test: 0.3534594368658198
+
+H1_H_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.4764136544407357
+p-value: 9.33013329311447e-10
+t-stat for differences: 0.7902521533635204
+p-value for t-test: 0.430653505025709
+
+H1_H__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.4589533809541681
+p-value: 4.44655820680368e-09
+t-stat for differences: 0.1303091640127942
+p-value for t-test: 0.8964999801861838
+
+H2_A_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.5185277934299254
+p-value: 1.4728566918298363e-11
+t-stat for differences: -5.496891286419064
+p-value for t-test: 1.6648736831744054e-07
+
+H2_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.4112904027260955
+p-value: 2.0713785893188945e-07
+t-stat for differences: -4.236735885598659
+p-value for t-test: 3.984355304514236e-05
+
+H2_A_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.43759984164260374
+p-value: 2.674328078463843e-08
+t-stat for differences: -4.452465206237401
+p-value for t-test: 1.6686447647092445e-05
+
+H2_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.3738918812049041
+p-value: 2.8557001654135817e-06
+t-stat for differences: -4.820567068559428
+p-value for t-test: 3.534669218211676e-06
+
+H2_B_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.5264776517980994
+p-value: 6.303072821197429e-12
+t-stat for differences: -7.698386757919575
+p-value for t-test: 1.85747725332249e-12
+
+H2_B_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.4925450165288959
+p-value: 2.0350175987063392e-10
+t-stat for differences: -6.635562503872104
+p-value for t-test: 5.803832949967308e-10
+
+H2_B_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.4952517462907976
+p-value: 1.5638439642456295e-10
+t-stat for differences: -6.775896526140797
+p-value for t-test: 2.78076925264421e-10
+
+H2_B__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.4409654783278199
+p-value: 2.032039426116735e-08
+t-stat for differences: -7.085524591020327
+p-value for t-test: 5.3442324647829557e-11
+
+H2_C_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.5154215457945347
+p-value: 2.0399089336721988e-11
+t-stat for differences: -9.243154084829348
+p-value for t-test: 2.538242601837892e-16
+
+H2_C_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.4990706639105137
+p-value: 1.0742661197646745e-10
+t-stat for differences: -8.255069047457589
+p-value for t-test: 7.99862024699734e-14
+
+H2_C_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.4492665231438385
+p-value: 1.0189256596616367e-08
+t-stat for differences: -7.994432009105399
+p-value for t-test: 3.5227144252676895e-13
+
+H2_C__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.42006855982254576
+p-value: 1.0666195255166666e-07
+t-stat for differences: -8.454293516572116
+p-value for t-test: 2.5476935024300562e-14
+
+H2_D_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.4762349535434207
+p-value: 9.484689156583166e-10
+t-stat for differences: -6.678246290870159
+p-value for t-test: 4.6437618567110695e-10
+
+H2_D_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.44546017769508406
+p-value: 1.4015314989292385e-08
+t-stat for differences: -5.704063706665767
+p-value for t-test: 6.219475552589129e-08
+
+H2_D_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.43866815661477154
+p-value: 2.4518412431723125e-08
+t-stat for differences: -5.789519365436012
+p-value for t-test: 4.117810965286532e-08
+
+H2_D__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.38970273014176016
+p-value: 9.795415321090777e-07
+t-stat for differences: -6.189924219234328
+p-value for t-test: 5.696827179150659e-09
+
+H2_E_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: 0.47590564174628236
+p-value: 9.776001825493913e-10
+t-stat for differences: -7.090494247053012
+p-value for t-test: 5.203169352745773e-11
+
+H2_E_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: 0.4340863634488204
+p-value: 3.5511022580608124e-08
+t-stat for differences: -6.048772749382205
+p-value for t-test: 1.1537389731174973e-08
+
+H2_E_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: 0.42337394423949004
+p-value: 8.266562698782127e-08
+t-stat for differences: -6.109818924575415
+p-value for t-test: 8.512091535698086e-09
+
+H2_E__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: 0.3906235448440044
+p-value: 9.187660158088874e-07
+t-stat for differences: -6.577993596245617
+p-value for t-test: 7.831426745212834e-10
+
