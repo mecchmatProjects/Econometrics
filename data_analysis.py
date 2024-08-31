@@ -9,7 +9,6 @@ from openpyxl import load_workbook
 from matplotlib.colors import Normalize
 from matplotlib.cm import ScalarMappable
 from scipy.stats import pearsonr, ttest_1samp
-<<<<<<< HEAD
 
 INPUT_FILE = 'Data_Excel.xlsx'
 PREPARED_DATA_FILE = 'Data_Excel_Bins.xlsx'
@@ -317,7 +316,8 @@ def correlation_calculation():
                             # Обчислення різниці в значенні
                             difference = np.array(right_array) - np.array(numerical_left_array)
                             # Проведення t-тесту
-                            t_statistic, p_value_ttest = ttest_1samp(difference, 0)
+                            Pop_mean = 1 if results_header.startswith('H1') else 0
+                            t_statistic, p_value_ttest = ttest_1samp(difference, Pop_mean)
                             print("t-statistics:", t_statistic)
                             print("p-value for t-test:", p_value_ttest)
                             print('\n')
@@ -328,9 +328,55 @@ def correlation_calculation():
                             file.write(f"t-stat for differences: {t_statistic}\n")
                             file.write(f"p-value for t-test: {p_value_ttest}\n\n")
 
+                            from scipy.stats import rankdata, kendalltau, chi2_contingency
+
+
+                            # Step 1: Rank the data
+                            rank_X = rankdata(numerical_left_array)
+                            rank_Y = rankdata(right_array)
+
+                            # Step 2: Compute the differences between ranks
+                            d = rank_X - rank_Y
+
+                            # Step 3: Square the differences
+                            d_squared = d ** 2
+
+                            # Step 4: Sum the squared differences
+                            sum_d_squared = np.sum(d_squared)
+
+                            # Step 5: Calculate Spearman's rank correlation coefficient
+                            n = len(right_array)
+                            r_s = 1 - (6 * sum_d_squared) / (n * (n ** 2 - 1))
+
+                            print(f"Spearman’s Rank Correlation Coefficient: {r_s}")
+                            file.write(f"Spearman’s Rank Correlation Coefficient: {r_s}\n\n")
+
+                            # Calculate Kendall's Tau using scipy
+                            tau, p_value = kendalltau(numerical_left_array, right_array)
+
+                            print(f"Kendall’s Tau: {tau} {p_value}")
+                            file.write(f"SKendall’s Tau, p-value: {tau}, {p_value}\n\n")
+
+                            # Create a contingency table
+                            contingency_table = pd.crosstab(numerical_left_array, right_array)
+
+                            # Perform the Chi-Square test
+                            chi2, p, dof, expected = chi2_contingency(contingency_table)
+
+                            # Calculate Cramér's V
+                            n = np.sum(contingency_table.values)  # Total number of observations
+                            min_dimension = min(contingency_table.shape) - 1  # min(k-1, r-1)
+                            cramers_v = np.sqrt(chi2 / (n * min_dimension))
+
+                            print(f"Chi-Square Statistic: {chi2}")
+                            print(f"P-Value: {p}")
+                            print(f"Cramér's V: {cramers_v}")
+
+                            file.write(f"Chi-Square Statistic, P-value, Cramér's V: {chi2}, {p}, {cramers_v}\n\n")
+
 # data_preparation()
-histogram_creation()
-construction_of_graphs()
+# histogram_creation()
+# construction_of_graphs()
 correlation_calculation()
 
 #
@@ -357,7 +403,6 @@ correlation_calculation()
 # stuff = []
 # stuffs = []
 # for i,peoples in enumerate(avg_stuff.values):
-=======
 #
 # INPUT_FILE = 'Data_Excel.xlsx'
 # PREPARED_DATA_FILE = 'Data_Excel_Bins.xlsx'
@@ -724,7 +769,6 @@ print(L[:10])
 # profit = []
 # p = []
 # for i,pr in enumerate(avg_stuff.values):
->>>>>>> 1dee9f0a6249c4130f481f9e19bb8243a182efb9
 #     print(peoples)
 #     if not pd.isnull(peoples):
 #         print("P", i, peoples, int(peoples))
@@ -736,7 +780,6 @@ print(L[:10])
 #     # input()
 # stuffs.append(stuff)
 # print(stuffs[:5])
-<<<<<<< HEAD
 #
 # L =[]
 # for i in range(len(firms)):
@@ -851,84 +894,83 @@ print(L[:10])
 #     start_idx = end_idx + 1
 #
 # print(firm_results)
-=======
 
 # Read the Excel file
 # df = pd.read_excel(file_path)
-
-df = pd.read_excel(FIRMS_DATA, sheet_name=SHEET1, dtype=object)
-
-
-# Find the indices of the empty rows which separate the firms
-empty_indices = df[df.isnull().all(axis=1)].index
-print(empty_indices)
-
-# Add an index at the end to handle the last segment
-empty_indices = firms.index[1:] #  empty_indices.append(pd.Index([len(df)]))
-
-
-print(empty_indices.values)
-
-# Initialize a list to store results
-firm_results = []
-
-# Initialize start index
-start_idx = 1
-
-# Iterate over the indices to separate the data for each firm
-for end_idx in empty_indices:
-    # Slice the DataFrame to get the firm's data
-    firm_data = df.iloc[start_idx+1:end_idx-1].dropna(how='all')
-    firm_data = firm_data.replace(u'\xa0', u'', regex=True).astype(float)
-    print(firm_data[:5].values)
-
-
-    if not firm_data.empty:
-        # Calculate the required metrics
-        print(firm_data['Turnover'])
-
-        t1 = firm_data['Turnover'].iloc[-1] # float("".join(firm_data['Turnover'].iloc[-1].split()))
-        t2 = firm_data['Turnover'].iloc[-1] # float("".join(firm_data['Turnover'].iloc[0].split()))
-        print("T", t1, " and", t2, float(t1))
-        turnover_growth = (t1 / t2) # ** (1 / len(firm_data)) - 1) * 100
-        print("grows", turnover_growth)
-
-        print(firm_data['Profit Net'])
-        print(firm_data['Profit Net'].values)
-        print(firm_data['Turnover'].values)
-        avg_profit_margin = (firm_data['Profit Net'].values / firm_data['Turnover'].values).mean() * 100
-        print(avg_profit_margin)
-        liabilities_to_assets = (
-                    firm_data['Liailities'] / (firm_data['Fixed assets'] + firm_data['Circulant Assets'])).mean()
-        print(liabilities_to_assets)
-        fixed_assets_growth = (firm_data['Fixed assets'].iloc[-1] / firm_data['Fixed assets'].iloc[0])  #** ( 1 / (len(firm_data)) - 1) * 100
-
-
-        current_ratio = (firm_data['Circulant Assets'] / firm_data['Liailities']).mean()
-        capital_reserves_growth = ((firm_data['Capitals and reserves'].iloc[-1] /
-                                    firm_data['Capitals and reserves'].iloc[0])) # ** (1 / (len(firm_data) - 1)) - 1) * 100
-
-        # Determine scores for each metric
-        turnover_score = min(max((turnover_growth // 5) + 1, 1), 5)
-        profit_margin_score = min(max((avg_profit_margin // 5) + 1, 1), 5)
-        liabilities_score = min(max(((1 - liabilities_to_assets) * 10), 1), 5)
-        fixed_assets_score = min(max((fixed_assets_growth // 2) + 1, 1), 5)
-        current_ratio_score = min(max((current_ratio * 2.5), 1), 5)
-        capital_reserves_score = min(max((capital_reserves_growth // 3) + 1, 1), 5)
-
-        # Analyze employees trend (here assuming a simple average trend as positive growth)
-        employee_trend = (firm_data['The average number of employees'].iloc[-1] -
-                          firm_data['The average number of employees'].iloc[0]) / len(firm_data)
-        employee_score = 5 if employee_trend > 0 else 3 if employee_trend == 0 else 1
-
-        # Calculate final score as average of all scores
-        final_score = round((turnover_score + profit_margin_score + liabilities_score + fixed_assets_score + current_ratio_score + capital_reserves_score + employee_score) / 7,0)
-
-        # Store the firm's final score
-        firm_results.append(final_score)
-
-    # Update start index for next firm
-    start_idx = end_idx + 1
-
-print(firm_results)
->>>>>>> 1dee9f0a6249c4130f481f9e19bb8243a182efb9
+#
+# df = pd.read_excel(FIRMS_DATA, sheet_name=SHEET1, dtype=object)
+#
+#
+# # Find the indices of the empty rows which separate the firms
+# empty_indices = df[df.isnull().all(axis=1)].index
+# print(empty_indices)
+#
+# # Add an index at the end to handle the last segment
+# empty_indices = firms.index[1:] #  empty_indices.append(pd.Index([len(df)]))
+#
+#
+# print(empty_indices.values)
+#
+# # Initialize a list to store results
+# firm_results = []
+#
+# # Initialize start index
+# start_idx = 1
+#
+# # Iterate over the indices to separate the data for each firm
+# for end_idx in empty_indices:
+#     # Slice the DataFrame to get the firm's data
+#     firm_data = df.iloc[start_idx+1:end_idx-1].dropna(how='all')
+#     firm_data = firm_data.replace(u'\xa0', u'', regex=True).astype(float)
+#     print(firm_data[:5].values)
+#
+#
+#     if not firm_data.empty:
+#         # Calculate the required metrics
+#         print(firm_data['Turnover'])
+#
+#         t1 = firm_data['Turnover'].iloc[-1] # float("".join(firm_data['Turnover'].iloc[-1].split()))
+#         t2 = firm_data['Turnover'].iloc[-1] # float("".join(firm_data['Turnover'].iloc[0].split()))
+#         print("T", t1, " and", t2, float(t1))
+#         turnover_growth = (t1 / t2) # ** (1 / len(firm_data)) - 1) * 100
+#         print("grows", turnover_growth)
+#
+#         print(firm_data['Profit Net'])
+#         print(firm_data['Profit Net'].values)
+#         print(firm_data['Turnover'].values)
+#         avg_profit_margin = (firm_data['Profit Net'].values / firm_data['Turnover'].values).mean() * 100
+#         print(avg_profit_margin)
+#         liabilities_to_assets = (
+#                     firm_data['Liailities'] / (firm_data['Fixed assets'] + firm_data['Circulant Assets'])).mean()
+#         print(liabilities_to_assets)
+#         fixed_assets_growth = (firm_data['Fixed assets'].iloc[-1] / firm_data['Fixed assets'].iloc[0])  #** ( 1 / (len(firm_data)) - 1) * 100
+#
+#
+#         current_ratio = (firm_data['Circulant Assets'] / firm_data['Liailities']).mean()
+#         capital_reserves_growth = ((firm_data['Capitals and reserves'].iloc[-1] /
+#                                     firm_data['Capitals and reserves'].iloc[0])) # ** (1 / (len(firm_data) - 1)) - 1) * 100
+#
+#         # Determine scores for each metric
+#         turnover_score = min(max((turnover_growth // 5) + 1, 1), 5)
+#         profit_margin_score = min(max((avg_profit_margin // 5) + 1, 1), 5)
+#         liabilities_score = min(max(((1 - liabilities_to_assets) * 10), 1), 5)
+#         fixed_assets_score = min(max((fixed_assets_growth // 2) + 1, 1), 5)
+#         current_ratio_score = min(max((current_ratio * 2.5), 1), 5)
+#         capital_reserves_score = min(max((capital_reserves_growth // 3) + 1, 1), 5)
+#
+#         # Analyze employees trend (here assuming a simple average trend as positive growth)
+#         employee_trend = (firm_data['The average number of employees'].iloc[-1] -
+#                           firm_data['The average number of employees'].iloc[0]) / len(firm_data)
+#         employee_score = 5 if employee_trend > 0 else 3 if employee_trend == 0 else 1
+#
+#         # Calculate final score as average of all scores
+#         final_score = round((turnover_score + profit_margin_score + liabilities_score + fixed_assets_score + current_ratio_score + capital_reserves_score + employee_score) / 7,0)
+#
+#         # Store the firm's final score
+#         firm_results.append(final_score)
+#
+#     # Update start index for next firm
+#     start_idx = end_idx + 1
+#
+# print(firm_results)
+#

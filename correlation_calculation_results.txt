@@ -4,11 +4,23 @@ p-value: 3.5458457418493633e-10
 t-stat for differences: -7.873769819566032
 p-value for t-test: 6.956884089070042e-13
 
+Spearman’s Rank Correlation Coefficient: 0.5055110925197215
+
+SKendall’s Tau, p-value: 0.40213944778274424, 2.2128211824549667e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 49.644419997240405, 2.6114588548238033e-05, 0.2895838696524827
+
 H3_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.4588146880347773
 p-value: 4.500488163407943e-09
 t-stat for differences: -6.873863542433759
 p-value for t-test: 1.6564100293387322e-10
+
+Spearman’s Rank Correlation Coefficient: 0.4898699548747487
+
+SKendall’s Tau, p-value: 0.3924273986315966, 5.2475354748974475e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 51.41155720612741, 1.3626057230099492e-05, 0.29469280044136126
 
 H3_A_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4620465426249798
@@ -16,11 +28,23 @@ p-value: 3.3935048477270204e-09
 t-stat for differences: -7.014701834578593
 p-value for t-test: 7.816993454172508e-11
 
+Spearman’s Rank Correlation Coefficient: 0.49274072044925354
+
+SKendall’s Tau, p-value: 0.3963378025293066, 3.608114905376345e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 54.0799411785958, 5.03187484268355e-06, 0.3022436963625069
+
 H3_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.49122949101618535
 p-value: 2.3109828809453387e-10
 t-stat for differences: -7.908122849069939
 p-value for t-test: 5.733824998558126e-13
+
+Spearman’s Rank Correlation Coefficient: 0.5200018879309387
+
+SKendall’s Tau, p-value: 0.419985921425428, 4.2997058130825915e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 59.32301746850841, 6.802766857854553e-07, 0.3165561558047574
 
 H3_B__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.47999397377219655
@@ -28,11 +52,23 @@ p-value: 6.699814335545893e-10
 t-stat for differences: -8.96547875736705
 p-value for t-test: 1.3023466089769426e-15
 
+Spearman’s Rank Correlation Coefficient: 0.4984841025109481
+
+SKendall’s Tau, p-value: 0.3959036102848527, 4.1655928586800305e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 52.17102222734013, 1.0279025791880053e-05, 0.2968614605087226
+
 H3_B_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.47228287150129206
 p-value: 1.360753017657948e-09
 t-stat for differences: -8.093446321440144
 p-value for t-test: 2.0097348362465173e-13
+
+Spearman’s Rank Correlation Coefficient: 0.5138855469632075
+
+SKendall’s Tau, p-value: 0.4074994185490108, 1.4311990997748138e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 47.60614519422454, 5.475919462003829e-05, 0.28357677232286665
 
 H3_B_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4765278274352075
@@ -40,11 +76,23 @@ p-value: 9.232662190106876e-10
 t-stat for differences: -8.246485174430285
 p-value for t-test: 8.401065657642094e-14
 
+Spearman’s Rank Correlation Coefficient: 0.5165230975393966
+
+SKendall’s Tau, p-value: 0.4096298337990498, 1.1460941087170795e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 49.333827386565986, 2.925424193189373e-05, 0.28867658007312064
+
 H3_B__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.4844294825208407
 p-value: 4.421489672408077e-10
 t-stat for differences: -9.003821729987527
 p-value for t-test: 1.0399074149391812e-15
+
+Spearman’s Rank Correlation Coefficient: 0.5198297530512296
+
+SKendall’s Tau, p-value: 0.41260701302123004, 9.271751905495787e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 52.86714574115924, 7.929296072223145e-06, 0.29883542468933544
 
 H3_C__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.4923899757073505
@@ -52,11 +100,23 @@ p-value: 2.0658049297544296e-10
 t-stat for differences: -9.20874779899144
 p-value for t-test: 3.110489025891324e-16
 
+Spearman’s Rank Correlation Coefficient: 0.5160233511144345
+
+SKendall’s Tau, p-value: 0.4122700561981425, 9.501799946482625e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 56.10415077418892, 2.339033624711683e-06, 0.30784821740006907
+
 H3_C_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.5059096077351554
 p-value: 5.419786328013689e-11
 t-stat for differences: -8.498842644477271
 p-value for t-test: 1.9702283846359474e-14
+
+Spearman’s Rank Correlation Coefficient: 0.5364093034275201
+
+SKendall’s Tau, p-value: 0.42886254203535074, 1.9377472050817373e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 57.6598716748223, 1.2908847981036073e-06, 0.3120872183911827
 
 H3_C_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.5102162118806152
@@ -64,11 +124,23 @@ p-value: 3.495163220904745e-11
 t-stat for differences: -8.660254037844386
 p-value for t-test: 7.7362492552082e-15
 
+Spearman’s Rank Correlation Coefficient: 0.5438971706948696
+
+SKendall’s Tau, p-value: 0.43369879400822153, 1.1770726242873842e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 66.46941208912403, 4.1091236484497575e-08, 0.33508120256545204
+
 H3_C__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.527903482727179
 p-value: 5.40036180612352e-12
 t-stat for differences: -9.547467632459538
 p-value for t-test: 4.171130007297607e-17
+
+Spearman’s Rank Correlation Coefficient: 0.5442525459303983
+
+SKendall’s Tau, p-value: 0.4403160754376759, 6.600011411785577e-11
+
+Chi-Square Statistic, P-value, Cramér's V: 68.60023677253623, 1.752595525758834e-08, 0.34040972126539937
 
 H3_D__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.4719966653426621
@@ -76,11 +148,23 @@ p-value: 1.3965427068413247e-09
 t-stat for differences: -4.879296774342903
 p-value for t-test: 2.738716215851466e-06
 
+Spearman’s Rank Correlation Coefficient: 0.49649714774355236
+
+SKendall’s Tau, p-value: 0.39001373059497085, 6.307762457027658e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 42.270881296488206, 0.0003595074757940291, 0.267214362831655
+
 H3_D_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.47758739515405796
 p-value: 8.373750591930424e-10
 t-stat for differences: -4.114422806875613
 p-value for t-test: 6.43971344180446e-05
+
+Spearman’s Rank Correlation Coefficient: 0.507938564506158
+
+SKendall’s Tau, p-value: 0.40227875192975676, 2.055906676174498e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 44.86884668501547, 0.00014536621077180134, 0.2753034158010309
 
 H3_D_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4824802526247898
@@ -88,11 +172,23 @@ p-value: 5.311367643610578e-10
 t-stat for differences: -4.258592098496856
 p-value for t-test: 3.6530253551075376e-05
 
+Spearman’s Rank Correlation Coefficient: 0.5109962722618524
+
+SKendall’s Tau, p-value: 0.4062935731943423, 1.3854623521779705e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 60.062165982846125, 5.109012573460403e-07, 0.318522152224159
+
 H3_D__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.507144089982015
 p-value: 4.7823699692482204e-11
 t-stat for differences: -5.049823839234808
 p-value for t-test: 1.2909642755033156e-06
+
+Spearman’s Rank Correlation Coefficient: 0.5461848987735853
+
+SKendall’s Tau, p-value: 0.43291789221421534, 1.170165189380399e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 51.429373502599695, 1.3536461458673725e-05, 0.2947438578280544
 
 H4_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.07210715241837033
@@ -100,11 +196,23 @@ p-value: 0.3837990038338677
 t-stat for differences: 8.271489113396878
 p-value for t-test: 7.281359969726925e-14
 
+Spearman’s Rank Correlation Coefficient: 0.11253734216342082
+
+SKendall’s Tau, p-value: 0.043435017414309926, 0.5191913724108833
+
+Chi-Square Statistic, P-value, Cramér's V: 16.713085307473275, 0.6715179022192177, 0.1680225074785534
+
 H4_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.035746294716950296
 p-value: 0.6662334699451148
 t-stat for differences: 8.61129838224713
 p-value for t-test: 1.027808224294806e-14
+
+Spearman’s Rank Correlation Coefficient: 0.08572224463883138
+
+SKendall’s Tau, p-value: 0.020159204890682403, 0.7647231806309773
+
+Chi-Square Statistic, P-value, Cramér's V: 14.149277828806307, 0.8228472273216385, 0.1545988588032069
 
 H4_A_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.04963435939719824
@@ -112,11 +220,23 @@ p-value: 0.5491211147682387
 t-stat for differences: 8.579022359692717
 p-value for t-test: 1.2391961951893466e-14
 
+Spearman’s Rank Correlation Coefficient: 0.08032220688021263
+
+SKendall’s Tau, p-value: 0.016799647390281246, 0.8029170397115294
+
+Chi-Square Statistic, P-value, Cramér's V: 13.320088657015402, 0.8632318968363617, 0.1500004991940759
+
 H4_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.027455024560969467
 p-value: 0.7404668073599149
 t-stat for differences: 8.08067216236713
 p-value for t-test: 2.1609501746792052e-13
+
+Spearman’s Rank Correlation Coefficient: 0.06553156361401802
+
+SKendall’s Tau, p-value: 0.0027483700400850507, 0.9674869710344173
+
+Chi-Square Statistic, P-value, Cramér's V: 23.391153241563057, 0.26999862572216754, 0.1987764653532102
 
 H5_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: -0.11217886848586814
@@ -124,11 +244,23 @@ p-value: 0.17464392859979833
 t-stat for differences: -5.0144376491066724
 p-value for t-test: 1.511079618262632e-06
 
+Spearman’s Rank Correlation Coefficient: -0.06870680432521281
+
+SKendall’s Tau, p-value: -0.12969392656747714, 0.05598814771337264
+
+Chi-Square Statistic, P-value, Cramér's V: 28.538275685824708, 0.027241967077869394, 0.21955989334711334
+
 H5_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: -0.0866866363828224
 p-value: 0.2948136421134882
 t-stat for differences: -4.597376803387131
 p-value for t-test: 9.147544112991834e-06
+
+Spearman’s Rank Correlation Coefficient: -0.06397494604589515
+
+SKendall’s Tau, p-value: -0.1220867491892194, 0.07190550144908614
+
+Chi-Square Statistic, P-value, Cramér's V: 44.59954791303069, 0.00015983006889089437, 0.2744759992739196
 
 H5_A_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: -0.12234507563777881
@@ -136,11 +268,23 @@ p-value: 0.13851522003634056
 t-stat for differences: -4.597426100702443
 p-value for t-test: 9.145653530002953e-06
 
+Spearman’s Rank Correlation Coefficient: -0.08027038132503139
+
+SKendall’s Tau, p-value: -0.1415581700910562, 0.03678561872512757
+
+Chi-Square Statistic, P-value, Cramér's V: 30.92087254044975, 0.013772724965668974, 0.22854147023160715
+
 H5_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: -0.0923194515768867
 p-value: 0.2644320392170098
 t-stat for differences: -5.058731079142738
 p-value for t-test: 1.2406671402042354e-06
+
+Spearman’s Rank Correlation Coefficient: -0.06383890396354452
+
+SKendall’s Tau, p-value: -0.12511088161661263, 0.06541763737182972
+
+Chi-Square Statistic, P-value, Cramér's V: 34.856530007870916, 0.004157859572279829, 0.2426505175389991
 
 H5_B__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: -0.35884744806231295
@@ -148,11 +292,23 @@ p-value: 7.5119626859725415e-06
 t-stat for differences: 8.609612845177107
 p-value for t-test: 1.0379019505777938e-14
 
+Spearman’s Rank Correlation Coefficient: -0.13862318009010233
+
+SKendall’s Tau, p-value: -0.31743238533508933, 1.889950824732899e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 21.077789912261196, 0.0003056189610314383, 0.377382431238088
+
 H5_B_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: -0.3861920985326627
 p-value: 1.2482719334196927e-06
 t-stat for differences: 9.135203864551372
 p-value for t-test: 4.800513150983128e-16
+
+Spearman’s Rank Correlation Coefficient: -0.16530131007599858
+
+SKendall’s Tau, p-value: -0.3460348966120962, 3.090368888086272e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 24.22873035393019, 7.186961602242061e-05, 0.4046080047732068
 
 H5_B_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: -0.3628102252198431
@@ -160,203 +316,407 @@ p-value: 5.8500294701810375e-06
 t-stat for differences: 9.072610041461436
 p-value for t-test: 6.940401116619047e-16
 
+Spearman’s Rank Correlation Coefficient: -0.14509304538067713
+
+SKendall’s Tau, p-value: -0.32342353890692666, 1.2840068235899298e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 19.722377138622544, 0.0005665230351457863, 0.365046990113181
+
 H5_B__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: -0.3909960087846025
 p-value: 8.952179593566534e-07
 t-stat for differences: 8.53528964204827
 p-value for t-test: 1.5960652689398146e-14
 
+Spearman’s Rank Correlation Coefficient: -0.16708651536072439
+
+SKendall’s Tau, p-value: -0.3492966411678313, 2.553414264833411e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 24.284520996529928, 7.004116143908874e-05, 0.405073575203203
+
 H1_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.47500893879239253
 p-value: 1.0613667793671183e-09
-t-stat for differences: -0.268833380424899
-p-value for t-test: 0.7884348376241189
+t-stat for differences: -10.21566845614616
+p-value for t-test: 7.594173847351964e-19
+
+Spearman’s Rank Correlation Coefficient: 0.5292934696098646
+
+SKendall’s Tau, p-value: 0.4261059227488259, 2.810950136927322e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 56.458849876425106, 2.0434414883849074e-06, 0.30881981614739795
 
 H1_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.45167223128008516
 p-value: 8.312906362896343e-09
-t-stat for differences: 0.5239368319955838
-p-value for t-test: 0.601111528199012
+t-stat for differences: -9.168894559922718
+p-value for t-test: 3.9355091102043284e-16
+
+Spearman’s Rank Correlation Coefficient: 0.49549580398094295
+
+SKendall’s Tau, p-value: 0.39650242535199953, 4.285173245896563e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 47.210899755149086, 6.313262743551829e-05, 0.28239713433087876
 
 H1_A_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4573954429106394
 p-value: 5.089814203165761e-09
-t-stat for differences: 0.39449809829563875
-p-value for t-test: 0.6937850851420578
+t-stat for differences: -9.336454992996783
+p-value for t-test: 1.4611681917405218e-16
+
+Spearman’s Rank Correlation Coefficient: 0.5035879942399597
+
+SKendall’s Tau, p-value: 0.3981850356226263, 3.59929927281111e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 45.01680937099254, 0.00013797119762800388, 0.2757569722079048
 
 H1_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.4261070725282898
 p-value: 6.681962001442607e-08
-t-stat for differences: -0.25738309342754895
-p-value for t-test: 0.7972429876679238
+t-stat for differences: -9.78055755024686
+p-value for t-test: 1.037182513128659e-17
+
+Spearman’s Rank Correlation Coefficient: 0.46863998637728266
+
+SKendall’s Tau, p-value: 0.3713946094587973, 3.9019106008199703e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 42.30519328466947, 0.0003552849748030211, 0.2673227920380579
 
 H1_B__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.47500893879239253
 p-value: 1.0613667793671183e-09
-t-stat for differences: -0.268833380424899
-p-value for t-test: 0.7884348376241189
+t-stat for differences: -10.21566845614616
+p-value for t-test: 7.594173847351964e-19
+
+Spearman’s Rank Correlation Coefficient: 0.5292934696098646
+
+SKendall’s Tau, p-value: 0.4261059227488259, 2.810950136927322e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 56.458849876425106, 2.0434414883849074e-06, 0.30881981614739795
 
 H1_B_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.45167223128008516
 p-value: 8.312906362896343e-09
-t-stat for differences: 0.5239368319955838
-p-value for t-test: 0.601111528199012
+t-stat for differences: -9.168894559922718
+p-value for t-test: 3.9355091102043284e-16
+
+Spearman’s Rank Correlation Coefficient: 0.49549580398094295
+
+SKendall’s Tau, p-value: 0.39650242535199953, 4.285173245896563e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 47.210899755149086, 6.313262743551829e-05, 0.28239713433087876
 
 H1_B_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4573954429106394
 p-value: 5.089814203165761e-09
-t-stat for differences: 0.39449809829563875
-p-value for t-test: 0.6937850851420578
+t-stat for differences: -9.336454992996783
+p-value for t-test: 1.4611681917405218e-16
+
+Spearman’s Rank Correlation Coefficient: 0.5035879942399597
+
+SKendall’s Tau, p-value: 0.3981850356226263, 3.59929927281111e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 45.01680937099254, 0.00013797119762800388, 0.2757569722079048
 
 H1_B__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.4261070725282898
 p-value: 6.681962001442607e-08
-t-stat for differences: -0.25738309342754895
-p-value for t-test: 0.7972429876679238
+t-stat for differences: -9.78055755024686
+p-value for t-test: 1.037182513128659e-17
+
+Spearman’s Rank Correlation Coefficient: 0.46863998637728266
+
+SKendall’s Tau, p-value: 0.3713946094587973, 3.9019106008199703e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 42.30519328466947, 0.0003552849748030211, 0.2673227920380579
 
 H1_C__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.47500893879239253
 p-value: 1.0613667793671183e-09
-t-stat for differences: -0.268833380424899
-p-value for t-test: 0.7884348376241189
+t-stat for differences: -10.21566845614616
+p-value for t-test: 7.594173847351964e-19
+
+Spearman’s Rank Correlation Coefficient: 0.5292934696098646
+
+SKendall’s Tau, p-value: 0.4261059227488259, 2.810950136927322e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 56.458849876425106, 2.0434414883849074e-06, 0.30881981614739795
 
 H1_C_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.45167223128008516
 p-value: 8.312906362896343e-09
-t-stat for differences: 0.5239368319955838
-p-value for t-test: 0.601111528199012
+t-stat for differences: -9.168894559922718
+p-value for t-test: 3.9355091102043284e-16
+
+Spearman’s Rank Correlation Coefficient: 0.49549580398094295
+
+SKendall’s Tau, p-value: 0.39650242535199953, 4.285173245896563e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 47.210899755149086, 6.313262743551829e-05, 0.28239713433087876
 
 H1_C_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4573954429106394
 p-value: 5.089814203165761e-09
-t-stat for differences: 0.39449809829563875
-p-value for t-test: 0.6937850851420578
+t-stat for differences: -9.336454992996783
+p-value for t-test: 1.4611681917405218e-16
+
+Spearman’s Rank Correlation Coefficient: 0.5035879942399597
+
+SKendall’s Tau, p-value: 0.3981850356226263, 3.59929927281111e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 45.01680937099254, 0.00013797119762800388, 0.2757569722079048
 
 H1_C__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.4261070725282898
 p-value: 6.681962001442607e-08
-t-stat for differences: -0.25738309342754895
-p-value for t-test: 0.7972429876679238
+t-stat for differences: -9.78055755024686
+p-value for t-test: 1.037182513128659e-17
+
+Spearman’s Rank Correlation Coefficient: 0.46863998637728266
+
+SKendall’s Tau, p-value: 0.3713946094587973, 3.9019106008199703e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 42.30519328466947, 0.0003552849748030211, 0.2673227920380579
 
 H1_D__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.5342726253904363
 p-value: 2.6834829627926873e-12
-t-stat for differences: -0.6989291290414006
-p-value for t-test: 0.48570067250037063
+t-stat for differences: -11.04308023885413
+p-value for t-test: 5.044895670907355e-21
+
+Spearman’s Rank Correlation Coefficient: 0.5609727656707523
+
+SKendall’s Tau, p-value: 0.46121719266228944, 6.968480083493766e-12
+
+Chi-Square Statistic, P-value, Cramér's V: 75.08976463394421, 1.260335085830535e-09, 0.35614718676190504
 
 H1_D_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.5093102077766233
 p-value: 3.8350273555177265e-11
-t-stat for differences: 0.13563073087265912
-p-value for t-test: 0.8922987621636942
+t-stat for differences: -9.901043353704114
+p-value for t-test: 5.038801417210219e-18
+
+Spearman’s Rank Correlation Coefficient: 0.5338328329699376
+
+SKendall’s Tau, p-value: 0.4303977363186616, 1.529026827210679e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 63.501813919063565, 1.3313279128403385e-07, 0.3275157668967797
 
 H1_D_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.5011765856122246
 p-value: 8.715982026932902e-11
-t-stat for differences: 0.0
-p-value for t-test: 1.0
+t-stat for differences: -9.944390835587122
+p-value for t-test: 3.884696564228223e-18
+
+Spearman’s Rank Correlation Coefficient: 0.5344371559616047
+
+SKendall’s Tau, p-value: 0.4289510564411507, 1.7121190654971988e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 62.807958753206435, 1.7490052946074447e-07, 0.325721545067189
 
 H1_D__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.4415517663874055
 p-value: 1.936513960592425e-08
-t-stat for differences: -0.6389031754322984
-p-value for t-test: 0.5238801709917686
+t-stat for differences: -10.094670171830314
+p-value for t-test: 1.5741535745911254e-18
+
+Spearman’s Rank Correlation Coefficient: 0.48064778242151207
+
+SKendall’s Tau, p-value: 0.3793333438630304, 1.7302199632533608e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 57.78241489927758, 1.23159026279883e-06, 0.31241867833582554
 
 H1_E__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.4928539623862436
 p-value: 1.9749855640630242e-10
-t-stat for differences: -0.39975230886518803
-p-value for t-test: 0.6899192076281593
+t-stat for differences: -10.260309260873159
+p-value for t-test: 5.801510596599614e-19
+
+Spearman’s Rank Correlation Coefficient: 0.5235102929254416
+
+SKendall’s Tau, p-value: 0.4109492631494879, 9.388394463977602e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 49.28680291548082, 2.9760793884772628e-05, 0.28853896557402503
 
 H1_E_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.45634557355013433
 p-value: 5.572864905902441e-09
-t-stat for differences: 0.38458270489362617
-p-value for t-test: 0.7011024139460666
+t-stat for differences: -9.101790682482486
+p-value for t-test: 5.844993803967157e-16
+
+Spearman’s Rank Correlation Coefficient: 0.48658273394610885
+
+SKendall’s Tau, p-value: 0.3810165387951221, 1.3795789226430853e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 49.43816586903895, 2.81603042541955e-05, 0.2889816868234431
 
 H1_E_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.47534248923891853
 p-value: 1.0294291790773285e-09
-t-stat for differences: 0.2606634971517877
-p-value for t-test: 0.7947168108385638
+t-stat for differences: -9.383885897464358
+p-value for t-test: 1.1029622365066554e-16
+
+Spearman’s Rank Correlation Coefficient: 0.5073499742723137
+
+SKendall’s Tau, p-value: 0.40162467029298476, 2.1391842263141122e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 49.300392744278035, 2.9613525759032006e-05, 0.28857874219425034
 
 H1_E__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.4380100628124361
 p-value: 2.5866942123797668e-08
-t-stat for differences: -0.3798973870055557
-p-value for t-test: 0.7045698894208559
+t-stat for differences: -9.750699599809263
+p-value for t-test: 1.2400493754590208e-17
+
+Spearman’s Rank Correlation Coefficient: 0.4642135286909975
+
+SKendall’s Tau, p-value: 0.35986382982428433, 8.54282400856148e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 40.3366773170149, 0.0006951268424141979, 0.26102926895602024
 
 H1_F__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.513716945501126
 p-value: 2.4357254829424826e-11
-t-stat for differences: 1.2987926182306933
-p-value for t-test: 0.19604873983608864
+t-stat for differences: -8.81811830272418
+p-value for t-test: 3.0850759954704186e-15
+
+Spearman’s Rank Correlation Coefficient: 0.5428162376868033
+
+SKendall’s Tau, p-value: 0.434649649268421, 1.0886983765486154e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 59.483884932734945, 6.392325246423653e-07, 0.3169850711931866
 
 H1_F_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.49974716191304386
 p-value: 1.0046446481989005e-10
-t-stat for differences: 2.0805518943485573
-p-value for t-test: 0.03921022931630759
+t-stat for differences: -7.852405536734878
+p-value for t-test: 7.844526267461187e-13
+
+Spearman’s Rank Correlation Coefficient: 0.529947767244028
+
+SKendall’s Tau, p-value: 0.4328383369283186, 1.2790481138900971e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 65.7619738505461, 5.4447989511484e-08, 0.33329328719325363
 
 H1_F_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.5036035316296685
 p-value: 6.837694539401854e-11
-t-stat for differences: 1.9515923062086489
-p-value for t-test: 0.05288760993454064
+t-stat for differences: -8.00825808409756
+p-value for t-test: 3.2576744015613296e-13
+
+Spearman’s Rank Correlation Coefficient: 0.5335681524559761
+
+SKendall’s Tau, p-value: 0.4285464292527976, 1.8888867797439522e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 59.33268539597642, 6.777380861159578e-07, 0.31658194947982526
 
 H1_F__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.46283283821980253
 p-value: 3.1668279017172808e-09
-t-stat for differences: 1.2363848748234538
-p-value for t-test: 0.2182873636602108
+t-stat for differences: -8.394402571169765
+p-value for t-test: 3.59686654607134e-14
+
+Spearman’s Rank Correlation Coefficient: 0.48624771875011563
+
+SKendall’s Tau, p-value: 0.3877678570727685, 8.705372850717789e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 49.18540908684534, 3.088246520597255e-05, 0.288242018615168
 
 H1_G__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.5639412749779888
 p-value: 8.444609190984897e-14
-t-stat for differences: -1.3370830159255642
-p-value for t-test: 0.18326095609283488
+t-stat for differences: -11.752255982082591
+p-value for t-test: 6.693811008296914e-23
+
+Spearman’s Rank Correlation Coefficient: 0.5839897903656293
+
+SKendall’s Tau, p-value: 0.47153174630289146, 1.760304307169034e-12
+
+Chi-Square Statistic, P-value, Cramér's V: 62.70860861593088, 1.818577194233333e-07, 0.32546382862482043
 
 H1_G_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.5325514627599669
 p-value: 3.2464013219088325e-12
-t-stat for differences: -0.473944558638178
-p-value for t-test: 0.6362426241225626
+t-stat for differences: -10.494486655559657
+p-value for t-test: 1.4090383784492214e-19
+
+Spearman’s Rank Correlation Coefficient: 0.5565166933815064
+
+SKendall’s Tau, p-value: 0.44600441652592915, 2.5060405329924554e-11
+
+Chi-Square Statistic, P-value, Cramér's V: 56.43619377126003, 2.0611673184438085e-06, 0.30875784750739327
 
 H1_G_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.5728407928604637
 p-value: 2.7939025616183473e-14
-t-stat for differences: -0.6367102042841438
-p-value for t-test: 0.52530388029672
+t-stat for differences: -11.107055785845619
+p-value for t-test: 3.4180504330382644e-21
+
+Spearman’s Rank Correlation Coefficient: 0.5962113668249813
+
+SKendall’s Tau, p-value: 0.4844770950298626, 4.063096317443953e-13
+
+Chi-Square Statistic, P-value, Cramér's V: 64.86607687043514, 7.768002764900827e-08, 0.33101521988369953
 
 H1_G__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.5160039109604363
 p-value: 1.919553544404724e-11
-t-stat for differences: -1.2692789077372886
-p-value for t-test: 0.2063475151652376
+t-stat for differences: -11.156293557480378
+p-value for t-test: 2.5328266432395025e-21
+
+Spearman’s Rank Correlation Coefficient: 0.5284503788818267
+
+SKendall’s Tau, p-value: 0.4204427555608734, 3.2979803052051426e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 56.634700448104525, 1.910876164081319e-06, 0.30930037783666914
 
 H1_H__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.49640863343898567
 p-value: 1.396376416425727e-10
-t-stat for differences: 0.13500706050283764
-p-value for t-test: 0.8927909756948692
+t-stat for differences: -9.855515416707147
+p-value for t-test: 6.620393025330931e-18
+
+Spearman’s Rank Correlation Coefficient: 0.5332821864461366
+
+SKendall’s Tau, p-value: 0.4299589723529769, 1.70474277392938e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 67.75831502093553, 2.4560402162080597e-08, 0.3383143703880161
 
 H1_H_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.4853270990724633
 p-value: 4.061879531508854e-10
-t-stat for differences: 0.9308459577399364
-p-value for t-test: 0.3534594368658198
+t-stat for differences: -8.90952559551082
+p-value for t-test: 1.8077655581208436e-15
+
+Spearman’s Rank Correlation Coefficient: 0.5170783713449102
+
+SKendall’s Tau, p-value: 0.4134507372240416, 8.098724361347798e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 57.6703867627185, 1.2856882869227186e-06, 0.31211567383895256
 
 H1_H_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4764136544407357
 p-value: 9.33013329311447e-10
-t-stat for differences: 0.7902521533635204
-p-value for t-test: 0.430653505025709
+t-stat for differences: -8.95619107145323
+p-value for t-test: 1.3752541428662496e-15
+
+Spearman’s Rank Correlation Coefficient: 0.5096654660413049
+
+SKendall’s Tau, p-value: 0.4062210008936444, 1.5452662637304829e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 45.482026970204465, 0.00011703278379055775, 0.277178188644923
 
 H1_H__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.4589533809541681
 p-value: 4.44655820680368e-09
-t-stat for differences: 0.1303091640127942
-p-value for t-test: 0.8964999801861838
+t-stat for differences: -9.512568972933975
+p-value for t-test: 5.1343292805998114e-17
+
+Spearman’s Rank Correlation Coefficient: 0.489574734301484
+
+SKendall’s Tau, p-value: 0.3861521939818548, 9.956532522363259e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 39.99623809392189, 0.0007795753025970676, 0.25992539890608934
 
 H2_A_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.5185277934299254
@@ -364,11 +724,23 @@ p-value: 1.4728566918298363e-11
 t-stat for differences: -5.496891286419064
 p-value for t-test: 1.6648736831744054e-07
 
+Spearman’s Rank Correlation Coefficient: 0.5361455483699011
+
+SKendall’s Tau, p-value: 0.44035888645550525, 4.730421150659653e-11
+
+Chi-Square Statistic, P-value, Cramér's V: 72.9952954131818, 2.9644927400128107e-09, 0.35114507525183647
+
 H2_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.4112904027260955
 p-value: 2.0713785893188945e-07
 t-stat for differences: -4.236735885598659
 p-value for t-test: 3.984355304514236e-05
+
+Spearman’s Rank Correlation Coefficient: 0.44295394559057066
+
+SKendall’s Tau, p-value: 0.34885708259411574, 1.8472877919352075e-07
+
+Chi-Square Statistic, P-value, Cramér's V: 40.342666370744695, 0.0006937234928664614, 0.26104864660926363
 
 H2_A_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.43759984164260374
@@ -376,11 +748,23 @@ p-value: 2.674328078463843e-08
 t-stat for differences: -4.452465206237401
 p-value for t-test: 1.6686447647092445e-05
 
+Spearman’s Rank Correlation Coefficient: 0.46286143697457216
+
+SKendall’s Tau, p-value: 0.36719138147399666, 3.979636793110792e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 54.27295642321674, 4.6791634058439025e-06, 0.30278258083224285
+
 H2_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.3738918812049041
 p-value: 2.8557001654135817e-06
 t-stat for differences: -4.820567068559428
 p-value for t-test: 3.534669218211676e-06
+
+Spearman’s Rank Correlation Coefficient: 0.4027669293728737
+
+SKendall’s Tau, p-value: 0.30741494187533996, 4.433634645619432e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 34.95591959213615, 0.004029858049327009, 0.24299621699360455
 
 H2_B_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.5264776517980994
@@ -388,11 +772,23 @@ p-value: 6.303072821197429e-12
 t-stat for differences: -7.698386757919575
 p-value for t-test: 1.85747725332249e-12
 
+Spearman’s Rank Correlation Coefficient: 0.5394142601716907
+
+SKendall’s Tau, p-value: 0.44109518653573987, 5.6504642737902224e-11
+
+Chi-Square Statistic, P-value, Cramér's V: 62.82799543145564, 1.735296681280736e-07, 0.3257734959465589
+
 H2_B_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.4925450165288959
 p-value: 2.0350175987063392e-10
 t-stat for differences: -6.635562503872104
 p-value for t-test: 5.803832949967308e-10
+
+Spearman’s Rank Correlation Coefficient: 0.5191782317860938
+
+SKendall’s Tau, p-value: 0.4201809825264549, 4.254634994462084e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 56.656031871061835, 1.8953838526455015e-06, 0.3093586212455631
 
 H2_B_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4952517462907976
@@ -400,11 +796,23 @@ p-value: 1.5638439642456295e-10
 t-stat for differences: -6.775896526140797
 p-value for t-test: 2.78076925264421e-10
 
+Spearman’s Rank Correlation Coefficient: 0.5271140199232242
+
+SKendall’s Tau, p-value: 0.4264459964172652, 2.2724332230954647e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 60.661006471048275, 4.0483985112580446e-07, 0.3201061016854102
+
 H2_B__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.4409654783278199
 p-value: 2.032039426116735e-08
 t-stat for differences: -7.085524591020327
 p-value for t-test: 5.3442324647829557e-11
+
+Spearman’s Rank Correlation Coefficient: 0.4690333053228547
+
+SKendall’s Tau, p-value: 0.3696992094435852, 4.053525432899744e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 42.71238156542078, 0.0003087118299850706, 0.26860620466555196
 
 H2_C_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.5154215457945347
@@ -412,11 +820,23 @@ p-value: 2.0399089336721988e-11
 t-stat for differences: -9.243154084829348
 p-value for t-test: 2.538242601837892e-16
 
+Spearman’s Rank Correlation Coefficient: 0.5326167833358629
+
+SKendall’s Tau, p-value: 0.43749611343103467, 8.657229405841516e-11
+
+Chi-Square Statistic, P-value, Cramér's V: 71.74331660772248, 4.9304632847975666e-09, 0.34812071873179573
+
 H2_C_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.4990706639105137
 p-value: 1.0742661197646745e-10
 t-stat for differences: -8.255069047457589
 p-value for t-test: 7.99862024699734e-14
+
+Spearman’s Rank Correlation Coefficient: 0.5222007722007722
+
+SKendall’s Tau, p-value: 0.4253529643734849, 2.772127571832759e-10
+
+Chi-Square Statistic, P-value, Cramér's V: 63.8860261850342, 1.1442470413793777e-07, 0.32850507571728205
 
 H2_C_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4492665231438385
@@ -424,11 +844,23 @@ p-value: 1.0189256596616367e-08
 t-stat for differences: -7.994432009105399
 p-value for t-test: 3.5227144252676895e-13
 
+Spearman’s Rank Correlation Coefficient: 0.4695099153392538
+
+SKendall’s Tau, p-value: 0.3707873391377577, 3.690227564775559e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 53.337384041191164, 6.650030152801425e-06, 0.30016151069384645
+
 H2_C__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.42006855982254576
 p-value: 1.0666195255166666e-07
 t-stat for differences: -8.454293516572116
 p-value for t-test: 2.5476935024300562e-14
+
+Spearman’s Rank Correlation Coefficient: 0.44160925752488556
+
+SKendall’s Tau, p-value: 0.34939374235686943, 2.2349437939186698e-07
+
+Chi-Square Statistic, P-value, Cramér's V: 52.81861751573708, 8.074356534246309e-06, 0.29869823852092237
 
 H2_D_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.4762349535434207
@@ -436,11 +868,23 @@ p-value: 9.484689156583166e-10
 t-stat for differences: -6.678246290870159
 p-value for t-test: 4.6437618567110695e-10
 
+Spearman’s Rank Correlation Coefficient: 0.49422052514094705
+
+SKendall’s Tau, p-value: 0.39465463095791226, 4.796456363971108e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 48.04017418326972, 4.6814729132356064e-05, 0.28486653520051247
+
 H2_D_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.44546017769508406
 p-value: 1.4015314989292385e-08
 t-stat for differences: -5.704063706665767
 p-value for t-test: 6.219475552589129e-08
+
+Spearman’s Rank Correlation Coefficient: 0.47989723732772627
+
+SKendall’s Tau, p-value: 0.379640408066408, 1.765729423188152e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 47.5659548109159, 5.555835386270462e-05, 0.28345704549377604
 
 H2_D_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.43866815661477154
@@ -448,11 +892,23 @@ p-value: 2.4518412431723125e-08
 t-stat for differences: -5.789519365436012
 p-value for t-test: 4.117810965286532e-08
 
+Spearman’s Rank Correlation Coefficient: 0.4755411143234729
+
+SKendall’s Tau, p-value: 0.3756325258096421, 2.4366033613661902e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 51.493928876105805, 1.3216644024661224e-05, 0.2949287845673849
+
 H2_D__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.38970273014176016
 p-value: 9.795415321090777e-07
 t-stat for differences: -6.189924219234328
 p-value for t-test: 5.696827179150659e-09
+
+Spearman’s Rank Correlation Coefficient: 0.4186884802896308
+
+SKendall’s Tau, p-value: 0.322246693277791, 1.7800547274946009e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 38.55230303542005, 0.0012615907821967778, 0.2551903867816676
 
 H2_E_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.47590564174628236
@@ -460,11 +916,23 @@ p-value: 9.776001825493913e-10
 t-stat for differences: -7.090494247053012
 p-value for t-test: 5.203169352745773e-11
 
+Spearman’s Rank Correlation Coefficient: 0.4978640467614581
+
+SKendall’s Tau, p-value: 0.3956884866609292, 4.043798589182301e-09
+
+Chi-Square Statistic, P-value, Cramér's V: 47.50611232333464, 5.6769479094662805e-05, 0.2832786814375275
+
 H2_E_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.4340863634488204
 p-value: 3.5511022580608124e-08
 t-stat for differences: -6.048772749382205
 p-value for t-test: 1.1537389731174973e-08
+
+Spearman’s Rank Correlation Coefficient: 0.46946641889115526
+
+SKendall’s Tau, p-value: 0.3696143240968787, 3.8661587810801996e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 43.62578766667941, 0.00022480050170314213, 0.27146308938125996
 
 H2_E_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.42337394423949004
@@ -472,9 +940,21 @@ p-value: 8.266562698782127e-08
 t-stat for differences: -6.109818924575415
 p-value for t-test: 8.512091535698086e-09
 
+Spearman’s Rank Correlation Coefficient: 0.45857194682698044
+
+SKendall’s Tau, p-value: 0.35688204148050245, 1.0900798662348447e-07
+
+Chi-Square Statistic, P-value, Cramér's V: 44.792381307342495, 0.00014933799042716046, 0.27506873007014604
+
 H2_E__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.3906235448440044
 p-value: 9.187660158088874e-07
 t-stat for differences: -6.577993596245617
 p-value for t-test: 7.831426745212834e-10
+
+Spearman’s Rank Correlation Coefficient: 0.42365170265457897
+
+SKendall’s Tau, p-value: 0.3248247733606143, 1.3946095955226989e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 41.32260652521391, 0.0004975285794778955, 0.2642001139505999
 
