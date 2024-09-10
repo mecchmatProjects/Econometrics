@@ -334,6 +334,294 @@ SKendall’s Tau, p-value: -0.3492966411678313, 2.553414264833411e-06
 
 Chi-Square Statistic, P-value, Cramér's V: 24.284520996529928, 7.004116143908874e-05, 0.405073575203203
 
+Н6_A_FINANCIAL_PERFORMANCE_[Gross_Profit]
+Pearson c.c: 0.3219080880695391
+p-value: 6.615562742612835e-05
+t-stat for differences: 1.842582179049279
+p-value for t-test: 0.06740454889328752
+
+Spearman’s Rank Correlation Coefficient: 0.3439143841828406
+
+SKendall’s Tau, p-value: 0.24352425640218534, 0.00035570017553608293
+
+Chi-Square Statistic, P-value, Cramér's V: 34.61109182217808, 0.004490732325993933, 0.24179471071977066
+
+Н6_A_FINANCIAL_PERFORMANCE_[Return_on_assets]
+Pearson c.c: 0.27411371729488315
+p-value: 0.0007482149062731822
+t-stat for differences: 2.063589330995594
+p-value for t-test: 0.040815311616887874
+
+Spearman’s Rank Correlation Coefficient: 0.3085462191406583
+
+SKendall’s Tau, p-value: 0.21007516836592366, 0.00197604482308464
+
+Chi-Square Statistic, P-value, Cramér's V: 31.205150448693473, 0.012667043666546828, 0.2295896399774066
+
+Н6_A_FINANCIAL_PERFORMANCE_[Sales]
+Pearson c.c: 0.31325316623005245
+p-value: 0.00010592282372485394
+t-stat for differences: 1.898227665623956
+p-value for t-test: 0.0596261763390424
+
+Spearman’s Rank Correlation Coefficient: 0.3441836919785146
+
+SKendall’s Tau, p-value: 0.24430990272733877, 0.00031445644932399545
+
+Chi-Square Statistic, P-value, Cramér's V: 28.25571400539596, 0.029465792299004128, 0.21847024197985504
+
+Н6_A_FINANCIAL_PERFORMANCE_[Earnings_per_share]
+Pearson c.c: 0.28131338732256495
+p-value: 0.0005331509441219035
+t-stat for differences: 0.5697870735772179
+p-value for t-test: 0.5696918632725676
+
+Spearman’s Rank Correlation Coefficient: 0.3407160070630828
+
+SKendall’s Tau, p-value: 0.2449523316198475, 0.0003153628957173068
+
+Chi-Square Statistic, P-value, Cramér's V: 31.318534992667033, 0.012249618581282165, 0.23000637106579563
+
+Н6_A_FINANCIAL_PERFORMANCE(1)_[Earnings_per_share]
+Pearson c.c: 0.2385971702727639
+p-value: 0.0034964161928487474
+t-stat for differences: 2.41535321213227
+p-value for t-test: 0.016947737959234523
+
+Spearman’s Rank Correlation Coefficient: 0.2742016088133058
+
+SKendall’s Tau, p-value: 0.18778356524397385, 0.005410306220698985
+
+Chi-Square Statistic, P-value, Cramér's V: 28.970574935975588, 0.024135286298703575, 0.22121659518771472
+
+Н6_A_FINANCIAL_PERFORMANCE_[Rate_of_Profit]
+Pearson c.c: 0.28234873299396906
+p-value: 0.0005074099205704142
+t-stat for differences: 1.45723228875709
+p-value for t-test: 0.14718515387252795
+
+Spearman’s Rank Correlation Coefficient: 0.3296253382542932
+
+SKendall’s Tau, p-value: 0.23125704243144132, 0.0006697450071086585
+
+Chi-Square Statistic, P-value, Cramér's V: 32.30462114154032, 0.009124974960635041, 0.23359926539512585
+
+Н6_B_FINANCIAL_PERFORMANCE_[Gross_Profit]
+Pearson c.c: 0.02567457339103121
+p-value: 0.756753067319125
+t-stat for differences: 1.3095459830549392
+p-value for t-test: 0.19239251325319734
+
+Spearman’s Rank Correlation Coefficient: 0.14711886931445894
+
+SKendall’s Tau, p-value: 0.0291825444957466, 0.6761510336669674
+
+Chi-Square Statistic, P-value, Cramér's V: 40.35215916138535, 0.0006915047649631127, 0.2610793576977192
+
+Н6_B_FINANCIAL_PERFORMANCE_[Return_on_assets]
+Pearson c.c: -0.07488594096388007
+p-value: 0.3656915375363448
+t-stat for differences: 1.4628344652656577
+p-value for t-test: 0.14564747888596274
+
+Spearman’s Rank Correlation Coefficient: 0.059660468577055314
+
+SKendall’s Tau, p-value: -0.05010641276416179, 0.4713165673814491
+
+Chi-Square Statistic, P-value, Cramér's V: 26.97902472284051, 0.041716877742346815, 0.21347757937706258
+
+Н6_B_FINANCIAL_PERFORMANCE_[Sales]
+Pearson c.c: -0.06757276888480537
+p-value: 0.4144879696012253
+t-stat for differences: 1.3069559943976181
+p-value for t-test: 0.1932684660779853
+
+Spearman’s Rank Correlation Coefficient: 0.05743659698597381
+
+SKendall’s Tau, p-value: -0.046206310899362744, 0.505914512084729
+
+Chi-Square Statistic, P-value, Cramér's V: 27.30217208625753, 0.03824429375390455, 0.21475226175639936
+
+Н6_B_FINANCIAL_PERFORMANCE_[Earnings_per_share]
+Pearson c.c: 0.07099884888907895
+p-value: 0.39117000363884713
+t-stat for differences: 0.37038536922389764
+p-value for t-test: 0.7116285156472356
+
+Spearman’s Rank Correlation Coefficient: 0.17641418983700863
+
+SKendall’s Tau, p-value: 0.05983790945072277, 0.3903289706929579
+
+Chi-Square Statistic, P-value, Cramér's V: 20.874940007055542, 0.18336800703055656, 0.18778105065445533
+
+Н6_B_FINANCIAL_PERFORMANCE(1)_[Earnings_per_share]
+Pearson c.c: -0.03190951056695451
+p-value: 0.7002355410316243
+t-stat for differences: 1.8068288464768476
+p-value for t-test: 0.07283419039847791
+
+Spearman’s Rank Correlation Coefficient: 0.08980905984741072
+
+SKendall’s Tau, p-value: -0.014816465599073028, 0.830360893005383
+
+Chi-Square Statistic, P-value, Cramér's V: 22.646080006643096, 0.12352812156344017, 0.1955850544513434
+
+Н6_B_FINANCIAL_PERFORMANCE_[Rate_of_Profit]
+Pearson c.c: 0.05858014223276007
+p-value: 0.47942774889544204
+t-stat for differences: 1.0672941854769817
+p-value for t-test: 0.2875886825641572
+
+Spearman’s Rank Correlation Coefficient: 0.1811266135331332
+
+SKendall’s Tau, p-value: 0.06428777284798479, 0.3559535655983864
+
+Chi-Square Statistic, P-value, Cramér's V: 31.689035193717466, 0.010973558140377699, 0.2313628657867621
+
+Н6_C_FINANCIAL_PERFORMANCE_[Gross_Profit]
+Pearson c.c: 0.09674113340186166
+p-value: 0.24213239434394956
+t-stat for differences: 2.264527189843183
+p-value for t-test: 0.02500416945571852
+
+Spearman’s Rank Correlation Coefficient: 0.19050611356459868
+
+SKendall’s Tau, p-value: 0.07094438395424117, 0.30995495071504164
+
+Chi-Square Statistic, P-value, Cramér's V: 20.5279678743621, 0.19737638686420872, 0.18621391303926632
+
+Н6_C_FINANCIAL_PERFORMANCE_[Return_on_assets]
+Pearson c.c: 0.023752434892823082
+p-value: 0.7744559908115222
+t-stat for differences: 2.3975448920251834
+p-value for t-test: 0.017760753106346106
+
+Spearman’s Rank Correlation Coefficient: 0.11884340168136909
+
+SKendall’s Tau, p-value: 0.003781935914063613, 0.9566485203069667
+
+Chi-Square Statistic, P-value, Cramér's V: 12.094674450506494, 0.7374372117426586, 0.14293422728149568
+
+Н6_C_FINANCIAL_PERFORMANCE_[Sales]
+Pearson c.c: 0.05275708116396392
+p-value: 0.5242425150255824
+t-stat for differences: 2.253569274538362
+p-value for t-test: 0.02570266209693518
+
+Spearman’s Rank Correlation Coefficient: 0.14092941729566855
+
+SKendall’s Tau, p-value: 0.030224651297661286, 0.663525040959585
+
+Chi-Square Statistic, P-value, Cramér's V: 16.340937166311917, 0.42942968914645474, 0.16614130853750345
+
+Н6_C_FINANCIAL_PERFORMANCE_[Earnings_per_share]
+Pearson c.c: 0.15400227589034085
+p-value: 0.06165099985884486
+t-stat for differences: 1.2806530242970315
+p-value for t-test: 0.20233248487744385
+
+Spearman’s Rank Correlation Coefficient: 0.23639486630857676
+
+SKendall’s Tau, p-value: 0.11843288299999061, 0.0891523529908339
+
+Chi-Square Statistic, P-value, Cramér's V: 13.045069518629491, 0.6694596169706657, 0.148443896483117
+
+Н6_C_FINANCIAL_PERFORMANCE(1)_[Earnings_per_share]
+Pearson c.c: 0.052948321566297654
+p-value: 0.5227377019276884
+t-stat for differences: 2.7521180538965337
+p-value for t-test: 0.006667201074871611
+
+Spearman’s Rank Correlation Coefficient: 0.14287102470228075
+
+SKendall’s Tau, p-value: 0.0339941967471403, 0.6231089853268755
+
+Chi-Square Statistic, P-value, Cramér's V: 10.726537470388756, 0.8260418421320521, 0.1346073962767776
+
+Н6_C_FINANCIAL_PERFORMANCE_[Rate_of_Profit]
+Pearson c.c: 0.13227345337693702
+p-value: 0.10902702193682846
+t-stat for differences: 2.014862552173312
+p-value for t-test: 0.0457423419363336
+
+Spearman’s Rank Correlation Coefficient: 0.21907402540192566
+
+SKendall’s Tau, p-value: 0.09938069158734668, 0.15365568749805347
+
+Chi-Square Statistic, P-value, Cramér's V: 20.941484612999957, 0.18077083358732102, 0.18808011434984634
+
+Н6_D_FINANCIAL_PERFORMANCE_[Gross_Profit]
+Pearson c.c: 0.36349697009629384
+p-value: 5.600040442816027e-06
+t-stat for differences: 9.333637627813465
+p-value for t-test: 1.485766931141668e-16
+
+Spearman’s Rank Correlation Coefficient: 0.4402460603323499
+
+SKendall’s Tau, p-value: 0.3017637478268734, 2.043049409992875e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 35.675828536542824, 0.0032086499147539423, 0.24548568976479118
+
+Н6_D_FINANCIAL_PERFORMANCE_[Return_on_assets]
+Pearson c.c: 0.2735687841280532
+p-value: 0.0007673707129709393
+t-stat for differences: 8.866846606316422
+p-value for t-test: 2.320632262744687e-15
+
+Spearman’s Rank Correlation Coefficient: 0.37648674561426243
+
+SKendall’s Tau, p-value: 0.2339706037892814, 0.0009085779620292543
+
+Chi-Square Statistic, P-value, Cramér's V: 15.576157749746265, 0.48291241580102795, 0.16220689652408987
+
+Н6_D_FINANCIAL_PERFORMANCE_[Sales]
+Pearson c.c: 0.25862221881050673
+p-value: 0.0015047148794913078
+t-stat for differences: 8.474230649867007
+p-value for t-test: 2.2709732573146146e-14
+
+Spearman’s Rank Correlation Coefficient: 0.37908727793675057
+
+SKendall’s Tau, p-value: 0.2431211309554559, 0.0005563612064534602
+
+Chi-Square Statistic, P-value, Cramér's V: 20.34047239748665, 0.20527584581273153, 0.18536155501299498
+
+Н6_D_FINANCIAL_PERFORMANCE_[Earnings_per_share]
+Pearson c.c: 0.2727864694690881
+p-value: 0.0007956596668673836
+t-stat for differences: 7.10556804118872
+p-value for t-test: 4.797421791411594e-11
+
+Spearman’s Rank Correlation Coefficient: 0.40246708151789645
+
+SKendall’s Tau, p-value: 0.2655111810829565, 0.00017040895313237854
+
+Chi-Square Statistic, P-value, Cramér's V: 24.732711716726694, 0.07467813524361157, 0.2043972339617822
+
+Н6_D_FINANCIAL_PERFORMANCE(1)_[Earnings_per_share]
+Pearson c.c: 0.2696407320137386
+p-value: 0.0009193495250230238
+t-stat for differences: 9.073991557008004
+p-value for t-test: 6.884210055877138e-16
+
+Spearman’s Rank Correlation Coefficient: 0.39258783506146877
+
+SKendall’s Tau, p-value: 0.2568074162780616, 0.0002499427603258469
+
+Chi-Square Statistic, P-value, Cramér's V: 28.143636604262834, 0.030392807859589803, 0.21803652606017626
+
+Н6_D_FINANCIAL_PERFORMANCE_[Rate_of_Profit]
+Pearson c.c: 0.30680279656709014
+p-value: 0.0001490463593885791
+t-stat for differences: 8.378594690630361
+p-value for t-test: 3.9391226522224313e-14
+
+Spearman’s Rank Correlation Coefficient: 0.4087860974246401
+
+SKendall’s Tau, p-value: 0.2676080608901941, 0.0001507780211049522
+
+Chi-Square Statistic, P-value, Cramér's V: 24.21068913300138, 0.08500274460209539, 0.20222866845797632
+
 H1_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.47500893879239253
 p-value: 1.0613667793671183e-09

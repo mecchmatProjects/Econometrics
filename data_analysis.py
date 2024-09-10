@@ -178,7 +178,11 @@ def construction_of_graphs():
         "INNOVATION_[Share_of_new_products_within_the_range]": "E",
         "AgeGroup": 'A',
         "EcoGroup": "A",
-        "Transport": 'B'
+        "Transport": 'B',
+        "T1": 'A',
+        "T2": 'B',
+        "T3": 'C',
+        "T4": 'D'
     }
 
     for sheet_name, arrays in get_arrays_of_data()["all_arrays"].items():
@@ -270,7 +274,11 @@ def correlation_calculation():
         "INNOVATION_[Share_of_new_products_within_the_range]": "E",
         "AgeGroup": 'A',
         "EcoGroup": "A",
-        "Transport": 'B'
+        "Transport": 'B',
+        "T1": 'A',
+        "T2": 'B',
+        "T3": 'C',
+        "T4": 'D'
     }
 
     with open('correlation_calculation_results.txt', 'w+', encoding='utf-8') as file:
@@ -374,10 +382,44 @@ def correlation_calculation():
 
                             file.write(f"Chi-Square Statistic, P-value, Cramér's V: {chi2}, {p}, {cramers_v}\n\n")
 
+
+def checkMannWitney(transport_ecology, non_transport_ecology):
+    from scipy.stats import mannwhitneyu
+    # Perform the Mann-Whitney U Test
+    stat, p_value = mannwhitneyu(transport_ecology, non_transport_ecology, alternative='less')
+
+    print(f"Mann-Whitney U statistic: {stat}")
+    print(f"P-value: {p_value}")
+
 # data_preparation()
 # histogram_creation()
 # construction_of_graphs()
-correlation_calculation()
+# correlation_calculation()
+
+transport_n1 = "2	3	2	5	4	5	4	3	5	4	3	2	5	4	3	4	5	3	1	5	3	3	5	4	3	1	3	4	1	3	2	4	3	5	3	1	2	5	3	5	3	2	4	3	2	3	2	3	4	4	4	5	3	4	2	1	2	2	4	1	5	2	1	2".split()
+transport_n2 = "2	3	1	3	5	4	2	3	5	4	4	3	4	5	3	4	5	3	1	4	2	3	5	4	3	1	3	3	1	3	2	3	3	5	4	1	4	5	3	5	5	2	4	4	3	3	3	3	4	4	5	5	3	4	3	3	4	2	5	1	4	2	1	3".split()
+transport_n3 = "3	3	1	3	5	4	3	3	5	4	3	3	4	4	3	5	5	3	1	4	3	3	5	4	3	1	2	2	1	3	2	4	3	5	4	1	2	5	5	5	5	2	4	4	2	4	2	3	5	4	4	5	3	4	3	2	4	2	5	1	3	2	1	2".split()
+transport_n4 = "2	3	2	3	5	5	2	3	5	4	3	2	4	3	3	5	5	3	1	4	4	4	5	4	3	1	1	3	1	3	2	4	3	4	4	1	4	5	5	5	5	2	4	4	3	3	3	2	4	4	5	4	3	4	3	2	3	1	4	1	4	2	1	2".split()
+
+transport_d1 = "5	3	4	2	2	4	1	1	1	2	5	4	2	3	2	3	4	1	1	2	1	2	3	4	1	1	1	3	2	1	4	1	1	1	1	2	3	1	2	2	2	4	2	2	2	1	4	2	3	2	2	3	1	3	1	2	3	1	1	2	2	4	2	3	2	4	4	3	1	3	1	2	1	2	2	3	3	1	1	4	3	1	1	4".split()
+transport_d2 = "5	3	3	1	2	4	1	1	1	2	5	5	2	2	1	2	4	2	1	4	1	2	3	4	1	2	4	4	2	2	3	3	1	1	1	3	2	2	2	2	2	4	2	1	1	1	3	1	4	3	2	3	1	1	1	3	3	1	1	2	3	4	2	4	2	4	4	3	1	3	1	1	2	3	2	3	2	1	1	3	3	1	1	3".split()
+transport_d3 = "5	3	3	2	2	4	1	1	1	2	5	5	2	2	1	2	4	2	1	4	2	1	3	5	1	2	4	4	2	2	3	3	1	1	1	3	2	2	2	2	2	3	2	1	1	1	3	2	3	1	3	3	1	1	1	3	3	1	1	2	3	4	2	4	2	4	4	3	2	3	1	1	2	3	2	3	2	1	1	3	3	1	1	3".split()
+transport_d4 = "2	3	3	1	2	4	1	1	1	2	5	5	2	3	1	1	4	1	1	3	2	1	3	3	1	2	3	4	2	2	2	1	1	1	1	2	3	1	2	2	2	3	2	2	1	1	4	1	4	2	3	3	1	2	1	3	3	1	1	2	3	4	3	3	2	2	5	2	1	3	1	1	2	3	2	3	3	1	1	3	3	3	1	4".split()
+
+transport_n1 = [*map(int,transport_n1)]
+transport_d1 = [*map(int,transport_d1)]
+transport_n2 = [*map(int,transport_n2)]
+transport_d2 = [*map(int,transport_d2)]
+transport_n3 = [*map(int,transport_n3)]
+transport_d3 = [*map(int,transport_d3)]
+transport_n4 = [*map(int,transport_n4)]
+transport_d4 = [*map(int,transport_d4)]
+print(transport_n1)
+checkMannWitney(transport_d1, transport_n1)
+checkMannWitney(transport_d2, transport_n2)
+checkMannWitney(transport_d3, transport_n3)
+checkMannWitney(transport_d4, transport_n4)
+
 
 #
 # FIRMS_DATA = "Chestionar_Viktor.xlsx"
@@ -716,12 +758,13 @@ correlation_calculation()
 #                             file.write(f"p-value for t-test: {p_value_ttest}\n\n")
 
 # data_preparation()
-# histogram_creation()
-# construction_of_graphs()
-# correlation_calculation()
+histogram_creation()
+construction_of_graphs()
+correlation_calculation()
 
 
-FIRMS_DATA = "Chestionar_Viktor.xlsx"
+# FIRMS_DATA = "Chestionar_Viktor.xlsx"
+FIRMS_DATA = "Chestionar_Transforemed.xlsx"
 FIRMS_DATA2 = "Firms"
 
 firm_data ={
@@ -734,36 +777,62 @@ firm_data ={
 
 SHEET1 = 'Sheet1'
 
-firms = pd.read_excel(FIRMS_DATA, sheet_name=SHEET1, usecols="A", dtype=str).dropna(how='all')
-print(firms.values[1:],firms.index)
+# firms = pd.read_excel(FIRMS_DATA, sheet_name=SHEET1, usecols="A", dtype=str).dropna(how='all')
+# print(firms.values[1:],firms.index)
+# input()
+#
+# avg_stuff = pd.read_excel(FIRMS_DATA, sheet_name=SHEET1, usecols="K", dtype=str)
+# print(avg_stuff.values[:10])
+#
+# stuff = []
+# stuffs = []
+# for i,peoples in enumerate(avg_stuff.values):
+#     print(peoples)
+#     if not pd.isnull(peoples):
+#         print("P", i, peoples, int(peoples))
+#         stuff.append(int(peoples[0]))
+#     elif i+1 in firms.index:
+#         print("ok")
+#         stuffs.append(stuff)
+#         stuff = []
+#     # input()
+# stuffs.append(stuff)
+# print(stuffs[:5])
+#
+# L =[]
+# for i in range(len(firms)):
+#     print(i,firms.values[i],stuffs[i])
+#     L.append((str(firms.values[i][0]),stuffs[i][0]))
+#
+# print(L[:10])
+#
+
+
+# Load the Excel file
+
+df = pd.read_excel(FIRMS_DATA, sheet_name=SHEET1, usecols="O:U").dropna(how='all')
+print(df[:10])
+
+# Estimate Gross Profit (this is just a sample formula, you may adjust it based on your context)
+df['Gross Profit'] = df['Turnover.1'] - (df['Liailities.1'] + df['Fixed assets.1'])
+
+# Normalize Gross Profit to a 1 to 5 scale
+min_gross_profit = df['Gross Profit'].min()
+max_gross_profit = 0 # df['Gross Profit'].max()
+print(min_gross_profit, max_gross_profit)
+df['Gross Profit (1-5)'] = 1 + 4 * (df['Gross Profit'] - min_gross_profit) / (max_gross_profit - min_gross_profit)
+print("Profit", df['Gross Profit (1-5)'])
+
+# Preview the resulting DataFrame
+print("Res" + df[['Turnover', 'Profit Net', 'Gross Profit', 'Gross Profit (1-5)']])
+
 input()
 
-avg_stuff = pd.read_excel(FIRMS_DATA, sheet_name=SHEET1, usecols="K", dtype=str)
-print(avg_stuff.values[:10])
 
-stuff = []
-stuffs = []
-for i,peoples in enumerate(avg_stuff.values):
-    print(peoples)
-    if not pd.isnull(peoples):
-        print("P", i, peoples, int(peoples))
-        stuff.append(int(peoples[0]))
-    elif i+1 in firms.index:
-        print("ok")
-        stuffs.append(stuff)
-        stuff = []
-    # input()
-stuffs.append(stuff)
-print(stuffs[:5])
 
-L =[]
-for i in range(len(firms)):
-    print(i,firms.values[i],stuffs[i])
-    L.append((str(firms.values[i][0]),stuffs[i][0]))
 
-print(L[:10])
 
-#
+
 # avg_stuff = pd.read_excel(FIRMS_DATA, sheet_name=SHEET1, usecols="K", dtype=str)
 # print(avg_stuff.values[:10])
 # profit = []
