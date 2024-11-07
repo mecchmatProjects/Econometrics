@@ -36,8 +36,8 @@ plt.axvline(average, color='cyan', linestyle='dashed', linewidth=1, label=f'Avg:
 
 
 # Set title and labels
-plt.title('Histogram of Years in Column Data')
+plt.title('Histogram of Age of cars distribution')
 plt.xlabel('Year')
-plt.ylabel('Frequency')
+plt.ylabel('Cars number')
 plt.legend()
 plt.show()
