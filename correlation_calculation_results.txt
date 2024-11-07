@@ -1,4 +1,4 @@
-H3_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+c_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.4867593751363038
 p-value: 3.5458457418493633e-10
 t-stat for differences: -7.873769819566032
@@ -10,7 +10,7 @@ SKendall’s Tau, p-value: 0.40213944778274424, 2.2128211824549667e-09
 
 Chi-Square Statistic, P-value, Cramér's V: 49.644419997240405, 2.6114588548238033e-05, 0.2895838696524827
 
-H3_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+c_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.4588146880347773
 p-value: 4.500488163407943e-09
 t-stat for differences: -6.873863542433759
@@ -22,7 +22,7 @@ SKendall’s Tau, p-value: 0.3924273986315966, 5.2475354748974475e-09
 
 Chi-Square Statistic, P-value, Cramér's V: 51.41155720612741, 1.3626057230099492e-05, 0.29469280044136126
 
-H3_A_[We_have_a_better_green_reputation_than_the_competition]
+c_A_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4620465426249798
 p-value: 3.3935048477270204e-09
 t-stat for differences: -7.014701834578593
@@ -34,7 +34,7 @@ SKendall’s Tau, p-value: 0.3963378025293066, 3.608114905376345e-09
 
 Chi-Square Statistic, P-value, Cramér's V: 54.0799411785958, 5.03187484268355e-06, 0.3022436963625069
 
-H3_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+c_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.49122949101618535
 p-value: 2.3109828809453387e-10
 t-stat for differences: -7.908122849069939
@@ -46,7 +46,7 @@ SKendall’s Tau, p-value: 0.419985921425428, 4.2997058130825915e-10
 
 Chi-Square Statistic, P-value, Cramér's V: 59.32301746850841, 6.802766857854553e-07, 0.3165561558047574
 
-H3_B__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+c_B__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.47999397377219655
 p-value: 6.699814335545893e-10
 t-stat for differences: -8.96547875736705
@@ -58,7 +58,7 @@ SKendall’s Tau, p-value: 0.3959036102848527, 4.1655928586800305e-09
 
 Chi-Square Statistic, P-value, Cramér's V: 52.17102222734013, 1.0279025791880053e-05, 0.2968614605087226
 
-H3_B_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+c_B_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.47228287150129206
 p-value: 1.360753017657948e-09
 t-stat for differences: -8.093446321440144
@@ -70,7 +70,7 @@ SKendall’s Tau, p-value: 0.4074994185490108, 1.4311990997748138e-09
 
 Chi-Square Statistic, P-value, Cramér's V: 47.60614519422454, 5.475919462003829e-05, 0.28357677232286665
 
-H3_B_[We_have_a_better_green_reputation_than_the_competition]
+c_B_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4765278274352075
 p-value: 9.232662190106876e-10
 t-stat for differences: -8.246485174430285
@@ -82,7 +82,7 @@ SKendall’s Tau, p-value: 0.4096298337990498, 1.1460941087170795e-09
 
 Chi-Square Statistic, P-value, Cramér's V: 49.333827386565986, 2.925424193189373e-05, 0.28867658007312064
 
-H3_B__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+c_B__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.4844294825208407
 p-value: 4.421489672408077e-10
 t-stat for differences: -9.003821729987527
@@ -94,7 +94,7 @@ SKendall’s Tau, p-value: 0.41260701302123004, 9.271751905495787e-10
 
 Chi-Square Statistic, P-value, Cramér's V: 52.86714574115924, 7.929296072223145e-06, 0.29883542468933544
 
-H3_C__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+c_C__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.4923899757073505
 p-value: 2.0658049297544296e-10
 t-stat for differences: -9.20874779899144
@@ -106,7 +106,7 @@ SKendall’s Tau, p-value: 0.4122700561981425, 9.501799946482625e-10
 
 Chi-Square Statistic, P-value, Cramér's V: 56.10415077418892, 2.339033624711683e-06, 0.30784821740006907
 
-H3_C_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+c_C_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.5059096077351554
 p-value: 5.419786328013689e-11
 t-stat for differences: -8.498842644477271
@@ -118,7 +118,7 @@ SKendall’s Tau, p-value: 0.42886254203535074, 1.9377472050817373e-10
 
 Chi-Square Statistic, P-value, Cramér's V: 57.6598716748223, 1.2908847981036073e-06, 0.3120872183911827
 
-H3_C_[We_have_a_better_green_reputation_than_the_competition]
+c_C_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.5102162118806152
 p-value: 3.495163220904745e-11
 t-stat for differences: -8.660254037844386
@@ -130,7 +130,7 @@ SKendall’s Tau, p-value: 0.43369879400822153, 1.1770726242873842e-10
 
 Chi-Square Statistic, P-value, Cramér's V: 66.46941208912403, 4.1091236484497575e-08, 0.33508120256545204
 
-H3_C__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+c_C__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.527903482727179
 p-value: 5.40036180612352e-12
 t-stat for differences: -9.547467632459538
@@ -142,7 +142,7 @@ SKendall’s Tau, p-value: 0.4403160754376759, 6.600011411785577e-11
 
 Chi-Square Statistic, P-value, Cramér's V: 68.60023677253623, 1.752595525758834e-08, 0.34040972126539937
 
-H3_D__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+c_D__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.4719966653426621
 p-value: 1.3965427068413247e-09
 t-stat for differences: -4.879296774342903
@@ -154,7 +154,7 @@ SKendall’s Tau, p-value: 0.39001373059497085, 6.307762457027658e-09
 
 Chi-Square Statistic, P-value, Cramér's V: 42.270881296488206, 0.0003595074757940291, 0.267214362831655
 
-H3_D_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+c_D_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: 0.47758739515405796
 p-value: 8.373750591930424e-10
 t-stat for differences: -4.114422806875613
@@ -166,7 +166,7 @@ SKendall’s Tau, p-value: 0.40227875192975676, 2.055906676174498e-09
 
 Chi-Square Statistic, P-value, Cramér's V: 44.86884668501547, 0.00014536621077180134, 0.2753034158010309
 
-H3_D_[We_have_a_better_green_reputation_than_the_competition]
+c_D_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: 0.4824802526247898
 p-value: 5.311367643610578e-10
 t-stat for differences: -4.258592098496856
@@ -178,7 +178,7 @@ SKendall’s Tau, p-value: 0.4062935731943423, 1.3854623521779705e-09
 
 Chi-Square Statistic, P-value, Cramér's V: 60.062165982846125, 5.109012573460403e-07, 0.318522152224159
 
-H3_D__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+c_D__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: 0.507144089982015
 p-value: 4.7823699692482204e-11
 t-stat for differences: -5.049823839234808
@@ -189,6 +189,54 @@ Spearman’s Rank Correlation Coefficient: 0.5461848987735853
 SKendall’s Tau, p-value: 0.43291789221421534, 1.170165189380399e-10
 
 Chi-Square Statistic, P-value, Cramér's V: 51.429373502599695, 1.3536461458673725e-05, 0.2947438578280544
+
+H7_A_[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
+Pearson c.c: -0.21263655882197802
+p-value: 0.05667084353100436
+t-stat for differences: -7.902103722632552
+p-value for t-test: 1.2574665815126075e-11
+
+Spearman’s Rank Correlation Coefficient: -0.09155374887082202
+
+SKendall’s Tau, p-value: -0.18802242231767508, 0.047666089236604
+
+Chi-Square Statistic, P-value, Cramér's V: 14.145626456876455, 0.5878658243999584, 0.20894817758546103
+
+H7_A_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
+Pearson c.c: -0.22175753503869394
+p-value: 0.046630136073864924
+t-stat for differences: -7.462130193352933
+p-value for t-test: 9.07113593743413e-11
+
+Spearman’s Rank Correlation Coefficient: -0.09936766034327005
+
+SKendall’s Tau, p-value: -0.19102254510692357, 0.043461268310365536
+
+Chi-Square Statistic, P-value, Cramér's V: 9.650214097496708, 0.8842455451198981, 0.1725821874123366
+
+H7_A_[We_have_a_better_green_reputation_than_the_competition]
+Pearson c.c: -0.29113744439242345
+p-value: 0.008366862513010918
+t-stat for differences: -7.265052389924175
+p-value for t-test: 2.186935440384143e-10
+
+Spearman’s Rank Correlation Coefficient: -0.17362240289069564
+
+SKendall’s Tau, p-value: -0.26406396908577173, 0.00528816145774872
+
+Chi-Square Statistic, P-value, Cramér's V: 16.953204545454547, 0.3886314512104373, 0.22874594070104368
+
+H7_A__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
+Pearson c.c: -0.1516361893578879
+p-value: 0.17658565960181222
+t-stat for differences: -8.06051353917265
+p-value for t-test: 6.155554738446097e-12
+
+Spearman’s Rank Correlation Coefficient: -0.0650124209575429
+
+SKendall’s Tau, p-value: -0.1631540916074372, 0.08608050816684996
+
+Chi-Square Statistic, P-value, Cramér's V: 13.212684474616294, 0.657147979496276, 0.2019403138398918
 
 H4_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.07210715241837033
@@ -238,6 +286,114 @@ SKendall’s Tau, p-value: 0.0027483700400850507, 0.9674869710344173
 
 Chi-Square Statistic, P-value, Cramér's V: 23.391153241563057, 0.26999862572216754, 0.1987764653532102
 
+H4_A_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: -0.06638662327906211
+p-value: 0.4227466662113898
+t-stat for differences: 13.08337115600753
+p-value for t-test: 2.0026111595641175e-26
+
+Spearman’s Rank Correlation Coefficient: -0.017912207509523048
+
+SKendall’s Tau, p-value: -0.07714974353681985, 0.2553358326209092
+
+Chi-Square Statistic, P-value, Cramér's V: 24.19392760114618, 0.23402364083700375, 0.20215865291370058
+
+H4_A_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: -0.01465025191724896
+p-value: 0.8597233800264323
+t-stat for differences: 14.150699350944977
+p-value for t-test: 3.135405898833236e-29
+
+Spearman’s Rank Correlation Coefficient: 0.03302676049560038
+
+SKendall’s Tau, p-value: -0.03250717858621404, 0.6323834039854195
+
+Chi-Square Statistic, P-value, Cramér's V: 18.4754663755646, 0.5561178825336525, 0.17665944092188252
+
+H4_A_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: -0.03756572513647352
+p-value: 0.650338570700318
+t-stat for differences: 14.08713547189658
+p-value for t-test: 4.597602973930368e-29
+
+Spearman’s Rank Correlation Coefficient: -0.008371678074458488
+
+SKendall’s Tau, p-value: -0.06887420119252519, 0.31102559557758214
+
+Chi-Square Statistic, P-value, Cramér's V: 20.519190452647273, 0.42590143668012226, 0.18617409777819738
+
+H4_A_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: -0.021184323625580752
+p-value: 0.7982891250285373
+t-stat for differences: 11.36146531618571
+p-value for t-test: 7.2575507039857585e-22
+
+Spearman’s Rank Correlation Coefficient: 0.036667505747083884
+
+SKendall’s Tau, p-value: -0.028766218147616755, 0.6710810144822674
+
+Chi-Square Statistic, P-value, Cramér's V: 21.356679636427835, 0.37641252808335796, 0.1899354426083526
+
+H4_A_INNOVATION_[Research_activity]
+Pearson c.c: -0.042306028748302665
+p-value: 0.6096733250994747
+t-stat for differences: 11.38927493636933
+p-value for t-test: 6.125947867668251e-22
+
+Spearman’s Rank Correlation Coefficient: 0.007806224249177318
+
+SKendall’s Tau, p-value: -0.0505203129844125, 0.45433755808377374
+
+Chi-Square Statistic, P-value, Cramér's V: 20.18853110742697, 0.44619311317734894, 0.1846679411600056
+
+H4_A_INNOVATION_[The_degree_of_product_novelty]
+Pearson c.c: -0.0827225809108686
+p-value: 0.3175307182569741
+t-stat for differences: 12.533749717753446
+p-value for t-test: 5.687668694799818e-25
+
+Spearman’s Rank Correlation Coefficient: -0.026546715185257863
+
+SKendall’s Tau, p-value: -0.08570692200567764, 0.20691506495313228
+
+Chi-Square Statistic, P-value, Cramér's V: 17.1913930884469, 0.6405129942550485, 0.1704098452323288
+
+H4_A_INNOVATION_[Using_the_latest_technologies]
+Pearson c.c: -0.05232677686758182
+p-value: 0.5276364646785471
+t-stat for differences: 13.946923227632839
+p-value for t-test: 1.0706404029659701e-28
+
+Spearman’s Rank Correlation Coefficient: 0.020768165782547365
+
+SKendall’s Tau, p-value: -0.04409939615644294, 0.516763624422875
+
+Chi-Square Statistic, P-value, Cramér's V: 21.51702859063584, 0.36728206581615946, 0.190647140232359
+
+H4_A_INNOVATION_[Speed_of_development_of_new_products]
+Pearson c.c: -0.10398131996368877
+p-value: 0.2085097505088913
+t-stat for differences: 12.19930188605795
+p-value for t-test: 4.373917828163159e-24
+
+Spearman’s Rank Correlation Coefficient: -0.05757263906832466
+
+SKendall’s Tau, p-value: -0.11435909315865336, 0.0926636815020853
+
+Chi-Square Statistic, P-value, Cramér's V: 20.830802773365484, 0.40715095018299347, 0.18758242680726026
+
+H4_A_INNOVATION_[Share_of_new_products_within_the_range]
+Pearson c.c: -0.06541564978971535
+p-value: 0.42957764029931905
+t-stat for differences: 12.64019882163707
+p-value for t-test: 2.9727069417174077e-25
+
+Spearman’s Rank Correlation Coefficient: 0.0003026242240048438
+
+SKendall’s Tau, p-value: -0.061929744342322596, 0.36144524501750486
+
+Chi-Square Statistic, P-value, Cramér's V: 16.687326248740156, 0.6731735174959725, 0.16789297512357346
+
 H5_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: -0.11217886848586814
 p-value: 0.17464392859979833
@@ -286,6 +442,114 @@ SKendall’s Tau, p-value: -0.12511088161661263, 0.06541763737182972
 
 Chi-Square Statistic, P-value, Cramér's V: 34.856530007870916, 0.004157859572279829, 0.2426505175389991
 
+H5_A_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: -0.1516563764574071
+p-value: 0.06576917029663398
+t-stat for differences: -0.46030794917288675
+p-value for t-test: 0.6459753669383889
+
+Spearman’s Rank Correlation Coefficient: -0.08748153714596674
+
+SKendall’s Tau, p-value: -0.15158353692768417, 0.026476356881932544
+
+Chi-Square Statistic, P-value, Cramér's V: 24.968298794100424, 0.07038627715480392, 0.20536840164796508
+
+H5_A_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: -0.15657004825866003
+p-value: 0.05738800803330971
+t-stat for differences: 0.22901521409162126
+p-value for t-test: 0.8191754023446611
+
+Spearman’s Rank Correlation Coefficient: -0.10013900354264682
+
+SKendall’s Tau, p-value: -0.16569091620745205, 0.015473867551190302
+
+Chi-Square Statistic, P-value, Cramér's V: 21.247591835042428, 0.1691885624212396, 0.18944973587750963
+
+H5_A_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: -0.16403037077259727
+p-value: 0.04635899389780436
+t-stat for differences: 0.30450376349945946
+p-value for t-test: 0.7611747825006596
+
+Spearman’s Rank Correlation Coefficient: -0.11509622895049554
+
+SKendall’s Tau, p-value: -0.18232546495833146, 0.007747015416681662
+
+Chi-Square Statistic, P-value, Cramér's V: 32.917974700210664, 0.007577324405994673, 0.23580646088179835
+
+H5_A_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: -0.13586393730236487
+p-value: 0.09966386475830898
+t-stat for differences: -2.148447872342502
+p-value for t-test: 0.0333163420600063
+
+Spearman’s Rank Correlation Coefficient: -0.07908209538123256
+
+SKendall’s Tau, p-value: -0.14471397262758853, 0.03389812631979451
+
+Chi-Square Statistic, P-value, Cramér's V: 28.659894781144782, 0.026332893668420853, 0.22002723564961096
+
+H5_A_INNOVATION_[Research_activity]
+Pearson c.c: -0.17132795231935924
+p-value: 0.03733861627179473
+t-stat for differences: -1.8291404030685283
+p-value for t-test: 0.06940504206837315
+
+Spearman’s Rank Correlation Coefficient: -0.10844219784775877
+
+SKendall’s Tau, p-value: -0.17030255393056357, 0.012266783157090346
+
+Chi-Square Statistic, P-value, Cramér's V: 21.252961650073033, 0.1689906823768417, 0.189473673784924
+
+H5_A_INNOVATION_[The_degree_of_product_novelty]
+Pearson c.c: -0.14606600109487897
+p-value: 0.07649154668798382
+t-stat for differences: -0.6426426600357068
+p-value for t-test: 0.521457060538379
+
+Spearman’s Rank Correlation Coefficient: -0.08439976752536671
+
+SKendall’s Tau, p-value: -0.1568938895101991, 0.021786768885540726
+
+Chi-Square Statistic, P-value, Cramér's V: 22.21917954050307, 0.13625448706491275, 0.19373280019777603
+
+H5_A_INNOVATION_[Using_the_latest_technologies]
+Pearson c.c: -0.08793022155644532
+p-value: 0.2879147723521503
+t-stat for differences: 0.15858657130666012
+p-value for t-test: 0.8742122681981825
+
+Spearman’s Rank Correlation Coefficient: -0.026662397228073065
+
+SKendall’s Tau, p-value: -0.10024144319434808, 0.14337666621013165
+
+Chi-Square Statistic, P-value, Cramér's V: 19.225788381304685, 0.2571285731759544, 0.18021097049663484
+
+H5_A_INNOVATION_[Speed_of_development_of_new_products]
+Pearson c.c: -0.13019365688860177
+p-value: 0.11475753617890734
+t-stat for differences: -1.1691954408572012
+p-value for t-test: 0.24421729688423968
+
+Spearman’s Rank Correlation Coefficient: -0.07247433709562179
+
+SKendall’s Tau, p-value: -0.1471873022345437, 0.03163959650388653
+
+Chi-Square Statistic, P-value, Cramér's V: 21.344608585858587, 0.16564132905148565, 0.18988175813044042
+
+H5_A_INNOVATION_[Share_of_new_products_within_the_range]
+Pearson c.c: -0.10617327067431873
+p-value: 0.19902468835740197
+t-stat for differences: -0.9008670164649322
+p-value for t-test: 0.3691325720849744
+
+Spearman’s Rank Correlation Coefficient: -0.05862395747343019
+
+SKendall’s Tau, p-value: -0.13097883778736094, 0.05529894696521333
+
+Chi-Square Statistic, P-value, Cramér's V: 21.48018369384791, 0.16078253505979861, 0.19048384203770616
+
 H5_B__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: -0.35884744806231295
 p-value: 7.5119626859725415e-06
@@ -333,6 +597,450 @@ Spearman’s Rank Correlation Coefficient: -0.16708651536072439
 SKendall’s Tau, p-value: -0.3492966411678313, 2.553414264833411e-06
 
 Chi-Square Statistic, P-value, Cramér's V: 24.284520996529928, 7.004116143908874e-05, 0.405073575203203
+
+H5_B_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: -0.2939200494919143
+p-value: 0.0002880721646143252
+t-stat for differences: 16.212194454858526
+p-value for t-test: 1.5255632385052642e-34
+
+Spearman’s Rank Correlation Coefficient: -0.0871890929417296
+
+SKendall’s Tau, p-value: -0.27257117289521293, 0.0002632502110924883
+
+Chi-Square Statistic, P-value, Cramér's V: 14.269842617753623, 0.006481811589499818, 0.3105122469812782
+
+H5_B_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: -0.32829260219586087
+p-value: 4.631722202986728e-05
+t-stat for differences: 16.978625947613864
+p-value for t-test: 1.796099297878197e-36
+
+Spearman’s Rank Correlation Coefficient: -0.12307921536109445
+
+SKendall’s Tau, p-value: -0.31383480288029303, 2.7474061034086095e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 19.47755347008065, 0.000633078867428346, 0.3627741597937461
+
+H5_B_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: -0.3529145085968838
+p-value: 1.0855541816091694e-05
+t-stat for differences: 16.98415551216894
+p-value for t-test: 1.7398600440685136e-36
+
+Spearman’s Rank Correlation Coefficient: -0.13518048249591863
+
+SKendall’s Tau, p-value: -0.3285346914173362, 1.1450775070130032e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 20.58822190370904, 0.0003820994982356812, 0.37297400372880346
+
+H5_B_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: -0.3230427011643053
+p-value: 6.21303946503026e-05
+t-stat for differences: 13.365532482630405
+p-value for t-test: 3.609157636971632e-27
+
+Spearman’s Rank Correlation Coefficient: -0.10041201316369097
+
+SKendall’s Tau, p-value: -0.28765914407963394, 0.00011529453471603015
+
+Chi-Square Statistic, P-value, Cramér's V: 16.620656769652307, 0.0022899987165147825, 0.33511451017537747
+
+H5_B_INNOVATION_[Research_activity]
+Pearson c.c: -0.33435213471083564
+p-value: 3.277823802488247e-05
+t-stat for differences: 13.371611258215776
+p-value for t-test: 3.478491087693824e-27
+
+Spearman’s Rank Correlation Coefficient: -0.11182011349796595
+
+SKendall’s Tau, p-value: -0.29389415321049667, 7.744465600170555e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 16.886048974873507, 0.0020340057224242122, 0.3377794036141074
+
+H5_B_INNOVATION_[The_degree_of_product_novelty]
+Pearson c.c: -0.3048799359300941
+p-value: 0.00016477186690196905
+t-stat for differences: 15.320458391527348
+p-value for t-test: 2.8920421871235975e-32
+
+Spearman’s Rank Correlation Coefficient: -0.07838985403702559
+
+SKendall’s Tau, p-value: -0.2667451560469135, 0.0003616383563161257
+
+Chi-Square Statistic, P-value, Cramér's V: 15.814714635854346, 0.0032781379441181226, 0.32688863542801366
+
+H5_B_INNOVATION_[Using_the_latest_technologies]
+Pearson c.c: -0.2995015398075802
+p-value: 0.0002173422888198084
+t-stat for differences: 17.322896946547065
+p-value for t-test: 2.494661528401558e-37
+
+Spearman’s Rank Correlation Coefficient: -0.07197273975797458
+
+SKendall’s Tau, p-value: -0.2589904183380349, 0.0005456437784818246
+
+Chi-Square Statistic, P-value, Cramér's V: 15.023963973828105, 0.004651771470576203, 0.31861147200537704
+
+H5_B_INNOVATION_[Speed_of_development_of_new_products]
+Pearson c.c: -0.33202746715652637
+p-value: 3.745970846902832e-05
+t-stat for differences: 15.223543283232816
+p-value for t-test: 5.137522038799172e-32
+
+Spearman’s Rank Correlation Coefficient: -0.10199454350940451
+
+SKendall’s Tau, p-value: -0.2952649769012658, 8.0790907830094e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 17.480344478216818, 0.001558683946323168, 0.34367198847684277
+
+H5_B_INNOVATION_[Share_of_new_products_within_the_range]
+Pearson c.c: -0.32691903545814505
+p-value: 5.0042973334040895e-05
+t-stat for differences: 15.476247670772143
+p-value for t-test: 1.1503991346582538e-32
+
+Spearman’s Rank Correlation Coefficient: -0.11161558764626833
+
+SKendall’s Tau, p-value: -0.30160202741074965, 5.446732752920637e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 17.59550851590636, 0.0014801659695747851, 0.34480222019792933
+
+H8_B_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: 0.3147084771978918
+p-value: 9.796053347246997e-05
+t-stat for differences: 7.127561773842614
+p-value for t-test: 4.260888967005135e-11
+
+Spearman’s Rank Correlation Coefficient: 0.3369040523882326
+
+SKendall’s Tau, p-value: 0.24274205302846916, 0.00035613321434205654
+
+Chi-Square Statistic, P-value, Cramér's V: 34.36987631832741, 0.004842457125906608, 0.24095066613455998
+
+H8_B_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: 0.3166286704025559
+p-value: 8.83087016370949e-05
+t-stat for differences: 8.208722848757887
+p-value for t-test: 1.0423957574156193e-13
+
+Spearman’s Rank Correlation Coefficient: 0.34399119705926995
+
+SKendall’s Tau, p-value: 0.24942861723169346, 0.00025021300200608025
+
+Chi-Square Statistic, P-value, Cramér's V: 38.99889510044542, 0.001088015757396407, 0.2566642008422593
+
+H8_B_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: 0.36190031929837935
+p-value: 6.1975647866228925e-06
+t-stat for differences: 8.62371672500743
+p-value for t-test: 9.56388831827219e-15
+
+Spearman’s Rank Correlation Coefficient: 0.4017572565031817
+
+SKendall’s Tau, p-value: 0.3016425557400214, 9.575654802642622e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 36.9196730316357, 0.00215235416052926, 0.2497284776581131
+
+H8_B_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: 0.13795034191401395
+p-value: 0.09452186021171925
+t-stat for differences: 3.908973905913496
+p-value for t-test: 0.00014105212237173342
+
+Spearman’s Rank Correlation Coefficient: 0.18724480541354938
+
+SKendall’s Tau, p-value: 0.10826331637109206, 0.11081719015199103
+
+Chi-Square Statistic, P-value, Cramér's V: 14.054956574510145, 0.5946195678021677, 0.15408270733663157
+
+H8_C_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: 0.3147084771978918
+p-value: 9.796053347246997e-05
+t-stat for differences: 7.127561773842614
+p-value for t-test: 4.260888967005135e-11
+
+Spearman’s Rank Correlation Coefficient: 0.3369040523882326
+
+SKendall’s Tau, p-value: 0.24274205302846916, 0.00035613321434205654
+
+Chi-Square Statistic, P-value, Cramér's V: 34.36987631832741, 0.004842457125906608, 0.24095066613455998
+
+H8_C_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: 0.3166286704025559
+p-value: 8.83087016370949e-05
+t-stat for differences: 8.208722848757887
+p-value for t-test: 1.0423957574156193e-13
+
+Spearman’s Rank Correlation Coefficient: 0.34399119705926995
+
+SKendall’s Tau, p-value: 0.24942861723169346, 0.00025021300200608025
+
+Chi-Square Statistic, P-value, Cramér's V: 38.99889510044542, 0.001088015757396407, 0.2566642008422593
+
+H8_C_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: 0.36190031929837935
+p-value: 6.1975647866228925e-06
+t-stat for differences: 8.62371672500743
+p-value for t-test: 9.56388831827219e-15
+
+Spearman’s Rank Correlation Coefficient: 0.4017572565031817
+
+SKendall’s Tau, p-value: 0.3016425557400214, 9.575654802642622e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 36.9196730316357, 0.00215235416052926, 0.2497284776581131
+
+H8_C_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: 0.13795034191401395
+p-value: 0.09452186021171925
+t-stat for differences: 3.908973905913496
+p-value for t-test: 0.00014105212237173342
+
+Spearman’s Rank Correlation Coefficient: 0.18724480541354938
+
+SKendall’s Tau, p-value: 0.10826331637109206, 0.11081719015199103
+
+Chi-Square Statistic, P-value, Cramér's V: 14.054956574510145, 0.5946195678021677, 0.15408270733663157
+
+H8_D_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: 0.3939549063484622
+p-value: 7.275415704949871e-07
+t-stat for differences: 7.014701834578592
+p-value for t-test: 7.81699345417265e-11
+
+Spearman’s Rank Correlation Coefficient: 0.4270555310823767
+
+SKendall’s Tau, p-value: 0.32459399948095147, 1.6241607868942285e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 41.5510106904283, 0.00046020798384591773, 0.26492926991587
+
+H8_D_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: 0.38650827058452
+p-value: 1.2214531285205222e-06
+t-stat for differences: 8.079397846230599
+p-value for t-test: 2.17664064520828e-13
+
+Spearman’s Rank Correlation Coefficient: 0.42877040168507086
+
+SKendall’s Tau, p-value: 0.3277566666791315, 1.3456634863663638e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 43.22575293805271, 0.0002583893645553791, 0.27021560753872353
+
+H8_D_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: 0.43896614191336564
+p-value: 2.3930250598589512e-08
+t-stat for differences: 8.583887103612739
+p-value for t-test: 1.2047671451439451e-14
+
+Spearman’s Rank Correlation Coefficient: 0.47756416188822703
+
+SKendall’s Tau, p-value: 0.3746398197447623, 3.3595021179155814e-08
+
+Chi-Square Statistic, P-value, Cramér's V: 60.06126671874736, 5.110795629258053e-07, 0.3185197677230041
+
+H8_D_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: 0.21392136385106716
+p-value: 0.009035888044495297
+t-stat for differences: 3.662363065809622
+p-value for t-test: 0.00034800064152569417
+
+Spearman’s Rank Correlation Coefficient: 0.2530549313866668
+
+SKendall’s Tau, p-value: 0.16719681339429704, 0.013391279043446726
+
+Chi-Square Statistic, P-value, Cramér's V: 20.475777379053692, 0.19955184623688588, 0.18597704640342597
+
+H8_E_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: 0.32880440387310517
+p-value: 4.49967922703865e-05
+t-stat for differences: 6.861317200866167
+p-value for t-test: 1.7703896567043754e-10
+
+Spearman’s Rank Correlation Coefficient: 0.3527941377893439
+
+SKendall’s Tau, p-value: 0.25590997201084625, 0.00015309819762188024
+
+Chi-Square Statistic, P-value, Cramér's V: 37.962597965544894, 0.0015320357226488227, 0.25323113962728583
+
+H8_E_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: 0.3194289422440329
+p-value: 7.581587830847851e-05
+t-stat for differences: 7.858021716931104
+p-value for t-test: 7.600853527544286e-13
+
+Spearman’s Rank Correlation Coefficient: 0.3554205828894228
+
+SKendall’s Tau, p-value: 0.25837146266059907, 0.00013608401567865558
+
+Chi-Square Statistic, P-value, Cramér's V: 34.9146035680325, 0.004082605678970197, 0.24285257028070917
+
+H8_E_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: 0.37135500321289766
+p-value: 3.3731127737203804e-06
+t-stat for differences: 8.303378055841494
+p-value for t-test: 6.065867702781312e-14
+
+Spearman’s Rank Correlation Coefficient: 0.4135734830845089
+
+SKendall’s Tau, p-value: 0.30454807093729797, 6.959902595342307e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 35.70222949553289, 0.0031818014634494964, 0.24557650558187677
+
+H8_E_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: 0.16587500874456906
+p-value: 0.0439228344775442
+t-stat for differences: 3.745663640051256
+p-value for t-test: 0.00025772333751751644
+
+Spearman’s Rank Correlation Coefficient: 0.1899471379337151
+
+SKendall’s Tau, p-value: 0.1144123853058803, 0.09011391405916017
+
+Chi-Square Statistic, P-value, Cramér's V: 25.76556581147729, 0.057417426142203666, 0.2086214639534725
+
+H8_F_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: 0.3352090483421536
+p-value: 3.1195782214391616e-05
+t-stat for differences: 8.454904754751537
+p-value for t-test: 2.538731731838463e-14
+
+Spearman’s Rank Correlation Coefficient: 0.3645113405420213
+
+SKendall’s Tau, p-value: 0.2655304541363707, 8.958254062654478e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 35.84486310163612, 0.003040420633634236, 0.24606656668318475
+
+H8_F_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: 0.3259004678349977
+p-value: 5.2985380190181924e-05
+t-stat for differences: 9.444820448250317
+p-value for t-test: 7.681396454440154e-17
+
+Spearman’s Rank Correlation Coefficient: 0.3618774917912022
+
+SKendall’s Tau, p-value: 0.26297077480706194, 0.00010789875584389967
+
+Chi-Square Statistic, P-value, Cramér's V: 39.5257714231781, 0.0009127647515112411, 0.2583921550326082
+
+H8_F_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: 0.36535390518757965
+p-value: 4.9737739881263305e-06
+t-stat for differences: 9.861922605090333
+p-value for t-test: 6.370965617606028e-18
+
+Spearman’s Rank Correlation Coefficient: 0.41536239019460497
+
+SKendall’s Tau, p-value: 0.3130774186285946, 4.071024899047982e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 43.15962118222509, 0.000264393452261248, 0.2700088248752536
+
+H8_F_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: 0.19738529743455366
+p-value: 0.0161882972388578
+t-stat for differences: 5.211720383844087
+p-value for t-test: 6.226139354461063e-07
+
+Spearman’s Rank Correlation Coefficient: 0.22756416188822703
+
+SKendall’s Tau, p-value: 0.14314966120424297, 0.03447388801501168
+
+Chi-Square Statistic, P-value, Cramér's V: 17.233404618970095, 0.37065128814869996, 0.1706179380231965
+
+H8_G_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: 0.3556816059486136
+p-value: 9.151122285693974e-06
+t-stat for differences: 6.058096325970762
+p-value for t-test: 1.1014978830817771e-08
+
+Spearman’s Rank Correlation Coefficient: 0.3784052166123115
+
+SKendall’s Tau, p-value: 0.2803319818072028, 3.1080397794423636e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 29.88950468750822, 0.018583642665922894, 0.22469763725584316
+
+H8_G_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: 0.35762448102303035
+p-value: 8.10916281532355e-06
+t-stat for differences: 7.12173943465388
+p-value for t-test: 4.396860624047406e-11
+
+Spearman’s Rank Correlation Coefficient: 0.3852526680906355
+
+SKendall’s Tau, p-value: 0.28570842393156914, 2.262579190238349e-05
+
+Chi-Square Statistic, P-value, Cramér's V: 45.025179093018, 0.00013756404094488852, 0.27578260598745724
+
+H8_G_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: 0.4063668019700879
+p-value: 2.9810654208152143e-07
+t-stat for differences: 7.535813855283964
+p-value for t-test: 4.580107025974462e-12
+
+Spearman’s Rank Correlation Coefficient: 0.4436471123911201
+
+SKendall’s Tau, p-value: 0.33825302455197037, 5.326226469255261e-07
+
+Chi-Square Statistic, P-value, Cramér's V: 53.16328555911855, 7.09804328178738e-06, 0.2996712318996283
+
+H8_G_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: 0.2035699820598722
+p-value: 0.01308015146933264
+t-stat for differences: 3.049357422536793
+p-value for t-test: 0.0027207521176811486
+
+Spearman’s Rank Correlation Coefficient: 0.23390261237816368
+
+SKendall’s Tau, p-value: 0.1505204340761977, 0.0251297376673598
+
+Chi-Square Statistic, P-value, Cramér's V: 17.51248359938562, 0.3532065564331774, 0.1719938893447531
+
+H8_H_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: 0.31011863225609165
+p-value: 0.0001251687942265437
+t-stat for differences: 7.326222455841464
+p-value for t-test: 1.4489694424535267e-11
+
+Spearman’s Rank Correlation Coefficient: 0.33647371518895963
+
+SKendall’s Tau, p-value: 0.24225064156346582, 0.00035083575433036854
+
+Chi-Square Statistic, P-value, Cramér's V: 24.04794837094223, 0.08846246997125203, 0.20154784645432305
+
+H8_H_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: 0.3005865353602192
+p-value: 0.00020562257449319686
+t-stat for differences: 8.315043600991455
+p-value for t-test: 5.673497515521694e-14
+
+Spearman’s Rank Correlation Coefficient: 0.3245640175170377
+
+SKendall’s Tau, p-value: 0.2309407585704201, 0.0006708580779080128
+
+Chi-Square Statistic, P-value, Cramér's V: 36.7162996089862, 0.0022986351109274723, 0.2490397084131981
+
+H8_H_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: 0.37422692859543727
+p-value: 2.7932882120030294e-06
+t-stat for differences: 8.919193510763609
+p-value for t-test: 1.7082527563655044e-15
+
+Spearman’s Rank Correlation Coefficient: 0.40153792335000393
+
+SKendall’s Tau, p-value: 0.30128582350126953, 9.201112508317604e-06
+
+Chi-Square Statistic, P-value, Cramér's V: 37.819952682482864, 0.0016053874557721175, 0.2527549311228106
+
+H8_H_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: 0.18618420780510966
+p-value: 0.023471488395312556
+t-stat for differences: 4.2734571107629025
+p-value for t-test: 3.442955801454229e-05
+
+Spearman’s Rank Correlation Coefficient: 0.21937387325690294
+
+SKendall’s Tau, p-value: 0.13620074001222834, 0.04419062645242684
+
+Chi-Square Statistic, P-value, Cramér's V: 17.011095390117127, 0.38487947503927755, 0.16951388860282776
 
 Н6_A_FINANCIAL_PERFORMANCE_[Gross_Profit]
 Pearson c.c: 0.3219080880695391
@@ -406,6 +1114,54 @@ SKendall’s Tau, p-value: 0.23125704243144132, 0.0006697450071086585
 
 Chi-Square Statistic, P-value, Cramér's V: 32.30462114154032, 0.009124974960635041, 0.23359926539512585
 
+Н6_A_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: 0.029952934265462736
+p-value: 0.717811950785103
+t-stat for differences: 6.6328284621133715
+p-value for t-test: 5.887184210922505e-10
+
+Spearman’s Rank Correlation Coefficient: 0.0919218766773896
+
+SKendall’s Tau, p-value: 0.020099222717532735, 0.7671682954385454
+
+Chi-Square Statistic, P-value, Cramér's V: 6.698147062973962, 0.9786498953761489, 0.10636934523806628
+
+Н6_A_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: 0.04897692842930697
+p-value: 0.5544313385404266
+t-stat for differences: 7.47806799718049
+p-value for t-test: 6.29903735848933e-12
+
+Spearman’s Rank Correlation Coefficient: 0.113657144337873
+
+SKendall’s Tau, p-value: 0.03850003390085046, 0.5713460131826509
+
+Chi-Square Statistic, P-value, Cramér's V: 3.830599233833096, 0.9991651156386381, 0.08044008213513494
+
+Н6_A_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: 0.10369099003315758
+p-value: 0.2097899898947733
+t-stat for differences: 7.7923826946669665
+p-value for t-test: 1.098495487324399e-12
+
+Spearman’s Rank Correlation Coefficient: 0.17931919729618673
+
+SKendall’s Tau, p-value: 0.09815318965614628, 0.1491682809514905
+
+Chi-Square Statistic, P-value, Cramér's V: 19.524974637597268, 0.2423812464945306, 0.18160775335051751
+
+Н6_A_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: -0.014201242397038365
+p-value: 0.8639805404214098
+t-stat for differences: 4.554176035585593
+p-value for t-test: 1.095775760676167e-05
+
+Spearman’s Rank Correlation Coefficient: 0.06182973824392812
+
+SKendall’s Tau, p-value: -0.006535170745048631, 0.9232093028720766
+
+Chi-Square Statistic, P-value, Cramér's V: 12.286866460506104, 0.7240076162207724, 0.144065408735401
+
 Н6_B_FINANCIAL_PERFORMANCE_[Gross_Profit]
 Pearson c.c: 0.02567457339103121
 p-value: 0.756753067319125
@@ -477,6 +1233,54 @@ Spearman’s Rank Correlation Coefficient: 0.1811266135331332
 SKendall’s Tau, p-value: 0.06428777284798479, 0.3559535655983864
 
 Chi-Square Statistic, P-value, Cramér's V: 31.689035193717466, 0.010973558140377699, 0.2313628657867621
+
+Н6_B_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: -0.13056377341095168
+p-value: 0.11372094057761047
+t-stat for differences: 5.4969688617152155
+p-value for t-test: 1.664266740994632e-07
+
+Spearman’s Rank Correlation Coefficient: 0.04552504840136673
+
+SKendall’s Tau, p-value: -0.05978870058655141, 0.3899239038752571
+
+Chi-Square Statistic, P-value, Cramér's V: 18.793236807140786, 0.27953095707685377, 0.17817219885407087
+
+Н6_B_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: -0.16345800898570473
+p-value: 0.047137400563822394
+t-stat for differences: 6.066031407532574
+p-value for t-test: 1.0588713343033488e-08
+
+Spearman’s Rank Correlation Coefficient: 0.007567456512806436
+
+SKendall’s Tau, p-value: -0.09864703947769703, 0.1568195186482132
+
+Chi-Square Statistic, P-value, Cramér's V: 17.466273285531926, 0.3560622938314241, 0.17176681870880786
+
+Н6_B_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: -0.06750915396636854
+p-value: 0.4149284861166635
+t-stat for differences: 6.395839868927579
+p-value for t-test: 2.00335492217861e-09
+
+Spearman’s Rank Correlation Coefficient: 0.09864716791850059
+
+SKendall’s Tau, p-value: -0.01256138047727308, 0.8569922123530568
+
+Chi-Square Statistic, P-value, Cramér's V: 18.08248420027266, 0.3190890329545188, 0.17477052619015856
+
+Н6_B_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: -0.1178069645509389
+p-value: 0.15386766719514025
+t-stat for differences: 3.8602722743274493
+p-value for t-test: 0.00016915277565281321
+
+Spearman’s Rank Correlation Coefficient: 0.03547089069620235
+
+SKendall’s Tau, p-value: -0.07225891180346375, 0.2981541273042805
+
+Chi-Square Statistic, P-value, Cramér's V: 11.630937845223558, 0.7689709403439118, 0.1401672374996491
 
 Н6_C_FINANCIAL_PERFORMANCE_[Gross_Profit]
 Pearson c.c: 0.09674113340186166
@@ -550,6 +1354,54 @@ SKendall’s Tau, p-value: 0.09938069158734668, 0.15365568749805347
 
 Chi-Square Statistic, P-value, Cramér's V: 20.941484612999957, 0.18077083358732102, 0.18808011434984634
 
+Н6_C_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: -0.02093926345217304
+p-value: 0.8005735208700911
+t-stat for differences: 6.717185768821818
+p-value for t-test: 3.786630873713398e-10
+
+Spearman’s Rank Correlation Coefficient: 0.10443219551560878
+
+SKendall’s Tau, p-value: -0.007290352646812594, 0.9165224014321075
+
+Chi-Square Statistic, P-value, Cramér's V: 17.395139310136912, 0.3604839042194988, 0.17141668899825116
+
+Н6_C_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: -0.016788682509029394
+p-value: 0.8395058139022937
+t-stat for differences: 7.431229247991991
+p-value for t-test: 8.150907572463924e-12
+
+Spearman’s Rank Correlation Coefficient: 0.0989655249003284
+
+SKendall’s Tau, p-value: -0.013189020956384249, 0.8498866522639618
+
+Chi-Square Statistic, P-value, Cramér's V: 13.240907516264713, 0.6550685074818983, 0.14955399637431369
+
+Н6_C_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: 0.03592602278129894
+p-value: 0.6646565632240122
+t-stat for differences: 7.705883112485771
+p-value for t-test: 1.7814345176123175e-12
+
+Spearman’s Rank Correlation Coefficient: 0.15400611541551135
+
+SKendall’s Tau, p-value: 0.037924356054636676, 0.5864697529399854
+
+Chi-Square Statistic, P-value, Cramér's V: 16.354831021590567, 0.4284823944221634, 0.16621192421931336
+
+Н6_C_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: -0.02306066591369325
+p-value: 0.7808562376898791
+t-stat for differences: 4.9231374467544855
+p-value for t-test: 2.260821745420128e-06
+
+Spearman’s Rank Correlation Coefficient: 0.0749027345384009
+
+SKendall’s Tau, p-value: -0.03617406460246015, 0.6025433340288294
+
+Chi-Square Statistic, P-value, Cramér's V: 16.521494559362203, 0.4171940284512824, 0.16705666702925281
+
 Н6_D_FINANCIAL_PERFORMANCE_[Gross_Profit]
 Pearson c.c: 0.36349697009629384
 p-value: 5.600040442816027e-06
@@ -621,6 +1473,54 @@ Spearman’s Rank Correlation Coefficient: 0.4087860974246401
 SKendall’s Tau, p-value: 0.2676080608901941, 0.0001507780211049522
 
 Chi-Square Statistic, P-value, Cramér's V: 24.21068913300138, 0.08500274460209539, 0.20222866845797632
+
+Н6_D_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
+Pearson c.c: 0.05565630492207928
+p-value: 0.5016675961647089
+t-stat for differences: 13.338617984193261
+p-value for t-test: 4.2493584890027114e-27
+
+Spearman’s Rank Correlation Coefficient: 0.18009102788585052
+
+SKendall’s Tau, p-value: 0.03705184564727631, 0.5992467366989624
+
+Chi-Square Statistic, P-value, Cramér's V: 21.241688625384278, 0.1694063075107732, 0.1894234166784088
+
+Н6_D_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
+Pearson c.c: 0.11630390843249261
+p-value: 0.15922491339326014
+t-stat for differences: 14.69123255735884
+p-value for t-test: 1.2240816004525625e-30
+
+Spearman’s Rank Correlation Coefficient: 0.2400134006078397
+
+SKendall’s Tau, p-value: 0.09291386583602647, 0.18842712867123101
+
+Chi-Square Statistic, P-value, Cramér's V: 11.839419013134428, 0.7549579785060949, 0.1414178864333208
+
+Н6_D_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
+Pearson c.c: 0.10902629998909573
+p-value: 0.1871518270943478
+t-stat for differences: 14.744358990604825
+p-value for t-test: 8.91062490651221e-31
+
+Spearman’s Rank Correlation Coefficient: 0.25008329107082705
+
+SKendall’s Tau, p-value: 0.10283586785393385, 0.14566677488066138
+
+Chi-Square Statistic, P-value, Cramér's V: 16.006424769526372, 0.45251249393908793, 0.1644319910426618
+
+Н6_D_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
+Pearson c.c: -0.037104248587933535
+p-value: 0.6543556041148447
+t-stat for differences: 10.452503850964085
+p-value for t-test: 1.8165494834192465e-19
+
+Spearman’s Rank Correlation Coefficient: 0.12222409370060372
+
+SKendall’s Tau, p-value: -0.020985992696059493, 0.7656945956597239
+
+Chi-Square Statistic, P-value, Cramér's V: 12.845973252937538, 0.6839846261575697, 0.14730675185976905
 
 H1_A__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.47500893879239253
