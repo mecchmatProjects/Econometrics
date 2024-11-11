@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from openpyxl import load_workbook
 from matplotlib.colors import Normalize
 from matplotlib.cm import ScalarMappable
-from scipy.stats import pearsonr, ttest_1samp
+from scipy.stats import pearsonr, ttest_1samp, probplot, shapiro, ttest_ind, ttest_rel, t, sem
 
 INPUT_FILE = 'Data_Excel.xlsx'
 PREPARED_DATA_FILE = 'Data_Excel_Bins.xlsx'
@@ -58,7 +58,7 @@ def data_preparation():
 
 # Функція створення гістограм по всіх стовпцях кожного аркуша таблиці
 # Не запускати без попереднього запуску функції "data_preparation()"
-def histogram_creation():
+def histogram_creation(show_plot=True):
     workbook = pd.ExcelFile(PREPARED_DATA_FILE)
 
     output_directory = 'histograms'
@@ -87,9 +87,10 @@ def histogram_creation():
                 histogram_filename = f'{output_directory}/{clean_sheet_name}_{clean_column_name}_histogram.png'
 
                 plt.savefig(histogram_filename)
-                plt.show()
-                # Затримка між запитами, щоб уникнути блокування
-                time.sleep(0.2)
+                if show_plot:
+                    plt.show()
+                    # Затримка між запитами, щоб уникнути блокування
+                    time.sleep(0.2)
 
 # Функція отримання масивів даних із стовпців excel-таблиці
 # Не запускати без попереднього запуску функції "data_preparation()"
@@ -152,7 +153,7 @@ def get_arrays_of_data():
 
 # Функція побудови графіків, використовуючи масиви даних, здобуті за допомогою функції "get_arrays_of_data()"
 # Не запускати без попереднього запуску функції "data_preparation()"
-def construction_of_graphs():
+def construction_of_graphs(show_plots=True):
 
     graphs_directory = 'graphs'
     if not os.path.exists(graphs_directory):
@@ -234,9 +235,10 @@ def construction_of_graphs():
                         graph_filename = f'{graphs_directory}/{clean_sheet_name[0:2]}_{letters_of_columns[clean_left_column_name]}_{clean_right_column_name}_graph.png'
 
                         plt.savefig(graph_filename)
-                        plt.show()
-                        # Затримка між запитами, щоб уникнути блокування
-                        time.sleep(0.2)
+                        if show_plots:
+                            plt.show()
+                            # Затримка між запитами, щоб уникнути блокування
+                            time.sleep(0.1)
 
 # Функція обчислення статистичної значущості по впливу параметрів
 # Не запускати без попереднього запуску функції "data_preparation()"
@@ -284,6 +286,22 @@ def correlation_calculation():
         "CarsAgeGroup": 'A'
     }
 
+    standard_means_for_t_stat = {
+        "H1": 0,
+        "H2": 0,
+        "H3": 0,
+        "H4": 0,
+        "H5": 0,
+        "H6": 0,
+        "H7": 0,
+        "H8": 0
+    }
+    mean_cmp ={
+
+        "H2": "greater",
+        "H3": "greater",
+    }
+
     with open('correlation_calculation_results.txt', 'w+', encoding='utf-8') as file:
 
         for sheet_name, arrays in get_arrays_of_data()["all_arrays"].items():
@@ -292,6 +310,8 @@ def correlation_calculation():
                 counter1 += 1
                 counter2 = 0
                 if counter1 <= get_arrays_of_data()["all_num_of_cols_before_empty"][sheet_name]:
+                    avg_diff = 0
+                    avg_counter = 0
                     for right_column_name, right_array in arrays.items():
                         counter2 += 1
                         if counter2 > get_arrays_of_data()["all_num_of_cols_before_empty"][sheet_name]:
@@ -317,29 +337,127 @@ def correlation_calculation():
                                 '/',
                                 '_').replace(
                                 '"', '')
-                            results_header = f'{clean_sheet_name[0:2]}_{letters_of_columns[clean_left_column_name]}_{clean_right_column_name}'
+                            results_header = f'{clean_sheet_name[0:2]}_{clean_left_column_name}_{clean_right_column_name}'
 
                             # Обчислення кореляції Пірсона для кожної пари стовпців зліва та справа кожного аркуша.
                             correlation_coefficient, p_value = pearsonr(right_array, numerical_left_array)
-                            print(results_header, '\n')
+                            print("\n  Results:", results_header, '\n')
+                            print(f"Avg: {np.average(right_array)}, {np.average(numerical_left_array)}")
+                            print(f"Var: {np.var(right_array)}, {np.var(numerical_left_array)}")
+
                             print("Pearson corellation:", correlation_coefficient)
                             print("p-value:", p_value)
                             # Обчислення різниці в значенні
-                            difference = np.array(right_array) - np.array(numerical_left_array)
+                            difference = (np.array(right_array) - np.array(numerical_left_array))/10
+
                             # Проведення t-тесту
-                            Pop_mean = 1 if results_header.startswith('H1') else 0
-                            t_statistic, p_value_ttest = ttest_1samp(difference, Pop_mean)
+                            # Pop_mean = 1 if results_header.startswith('H1') or results_header.startswith('H1') else 0
+
+                            pop_mean = np.round(np.average(4*difference))/4 # standard_means_for_t_stat.get(clean_sheet_name[0:2],0)
+
+                            t_statistic, p_value_ttest = ttest_1samp(difference, pop_mean)
+                            print(f"Difference stat: {pop_mean}\n")
                             print("t-statistics:", t_statistic)
                             print("p-value for t-test:", p_value_ttest)
+
+                            # Perform the Shapiro-Wilk test
+                            stat_s, p_value_s = shapiro(difference)
+
+                            # Output the results
+                            print(f"Shapiro-Wilk Test Statistic: {stat_s}")
+                            print(f"P-value: {p_value_s}")
+                            alpha = 0.05  # Common significance level
+                            if p_value_s > alpha:
+                                print("Sample looks normally distributed (fail to reject H0)")
+                            else:
+                                print("Sample does not look normally distributed (reject H0)")
+                            # probplot(difference,plot=plt)
+                            # plt.show()
+                            # Perform independent two-sample t-test
+                            stat_i, p_value_i = ttest_ind(right_array, numerical_left_array,
+                                                      # alternative='less',
+                                                      equal_var=False)  # Use equal_var=True if variances are assumed equal
+
+                            # Output the results
+                            print(f"Independent t-test statistic: {stat_i}")
+                            print(f"P-value: {p_value_i}")
+
+                            # Perform paired t-test
+                            alternate = mean_cmp.get(clean_sheet_name[0:2], "two-sided")
+                            print(f"checking {alternate}")
+                            stat_p, p_value_p = ttest_rel(right_array, numerical_left_array, alternative=alternate)
+
+                            # Output the results
+                            print(f"Paired t-test statistic: {stat_p}")
+                            print(f"P-value: {p_value_p}")
+
+
+                            # Interpretation
+                            alpha = 0.05
+                            if p_value_p > alpha:
+                                print("No significant difference in means (fail to reject H0)")
+                            else:
+                                print("Significant difference in means (reject H0)")
                             print('\n')
 
-                            file.write(f"{results_header}\n")
+                            # Calculate mean and standard error of the differences
+                            mean_diff = np.mean(difference)
+                            se_diff = sem(difference)  # Standard error of the mean of differences
+
+                            # Degrees of freedom for paired t-test
+                            df = len(difference) - 1
+
+                            # Define confidence level
+                            confidence_level = 0.95
+                            t_critical = t.ppf((1 + confidence_level) / 2, df)
+
+                            # Calculate confidence interval for the mean difference
+                            ci_lower = mean_diff - t_critical * se_diff
+                            ci_upper = mean_diff + t_critical * se_diff
+
+                            print(
+                                f"{int(confidence_level * 100)}% Confidence Interval for the mean difference: ({ci_lower}, {ci_upper})")
+
+                            # Interpretation
+                            if ci_lower > 0:
+                                print(
+                                    "The confidence interval does not include zero, indicating dist1's mean is significantly greater than dist2's mean.")
+                            elif ci_upper < 0:
+                                print(
+                                    "The confidence interval does not include zero, indicating dist1's mean is significantly less than dist2's mean.")
+                            else:
+                                print(
+                                    "The confidence interval includes zero, suggesting no significant difference in means.")
+
+                            file.write(f"\n{results_header}\n")
                             file.write(f"Pearson c.c: {correlation_coefficient}\n")
                             file.write(f"p-value: {p_value}\n")
+
+                            file.write(f"Difference stat: {pop_mean}\n")
                             file.write(f"t-stat for differences: {t_statistic}\n")
                             file.write(f"p-value for t-test: {p_value_ttest}\n\n")
+                            # file.write(f"Shapiro-Wilk Test Statistic: {stat_s}")
+                            # file.write(f"P-value: {p_value_s}")
+                            file.write(f"Paired t-test statistic: {stat_p}\n")
+                            file.write(f"P-value: {p_value_p}\n")
+                            if p_value_p > alpha:
+                                file.write(f"{alternate} is failed to reject H0)\n")
+                            else:
+                                file.write(f" {alternate} in means (reject H0)\n")
 
-                            from scipy.stats import rankdata, kendalltau, chi2_contingency
+                            if ci_lower > 0:
+                                file.write(
+                                    "The confidence interval does not include zero, indicating dist1's mean is significantly greater than dist2's mean.\n")
+                            elif ci_upper < 0:
+                                file.write(
+                                    "The confidence interval does not include zero, indicating dist1's mean is significantly less than dist2's mean.\n")
+                            else:
+                                file.write(
+                                    "The confidence interval includes zero, suggesting no significant difference in means.\n")
+
+
+
+                            from scipy.stats import rankdata, kendalltau, chi2_contingency, mannwhitneyu
 
 
                             # Step 1: Rank the data
@@ -360,13 +478,13 @@ def correlation_calculation():
                             r_s = 1 - (6 * sum_d_squared) / (n * (n ** 2 - 1))
 
                             print(f"Spearman’s Rank Correlation Coefficient: {r_s}")
-                            file.write(f"Spearman’s Rank Correlation Coefficient: {r_s}\n\n")
+                            file.write(f"Spearman’s Rank Correlation Coefficient: {r_s}\n")
 
                             # Calculate Kendall's Tau using scipy
                             tau, p_value = kendalltau(numerical_left_array, right_array)
 
                             print(f"Kendall’s Tau: {tau} {p_value}")
-                            file.write(f"SKendall’s Tau, p-value: {tau}, {p_value}\n\n")
+                            file.write(f"SKendall’s Tau, p-value: {tau}, {p_value}\n")
 
                             # Create a contingency table
                             contingency_table = pd.crosstab(numerical_left_array, right_array)
@@ -383,12 +501,56 @@ def correlation_calculation():
                             print(f"P-Value: {p}")
                             print(f"Cramér's V: {cramers_v}")
 
-                            file.write(f"Chi-Square Statistic, P-value, Cramér's V: {chi2}, {p}, {cramers_v}\n\n")
+                            file.write(f"Chi-Square Statistic, P-value, Cramér's V: {chi2}, {p}, {cramers_v}\n")
+
+                            # Perform the Mann - Whitney U-Test
+
+                            stat_mu, p_value_mu = mannwhitneyu(numerical_left_array, right_array, alternative=alternate)
+
+                            # Output the results
+                            print(f"Mann-Whitney U Test statistic: {stat_mu}")
+                            print(f"P-value: {p_value_mu}")
+
+                            # Interpretation
+                            alpha = 0.05
+                            if p_value_mu < alpha:
+                                print(
+                                    "There is a significant difference between the distributions of dist1 and dist2 (reject H0)")
+                            else:
+                                print(
+                                    "No significant difference between the distributions of dist1 and dist2 (fail to reject H0)")
+
+                            if clean_sheet_name[0:2]=="H5" and clean_left_column_name.startswith("T"):
+                                index_notransp = np.array(np.where(np.array(numerical_left_array) <= 1.5)[0]).astype(int)
+                                index_transp = np.array(np.where(np.array(numerical_left_array) >= 1.5)[0]).astype(int)
+                                # print(indexes1)
+                                data1 = np.array(right_array)[index_notransp]
+                                data2 = np.array(right_array)[index_transp]
+                                print(f"{np.average(data1)}, {data1.shape}, {np.average(data2)}, {data2.shape}")
+                                file.write(f"Average Transport vs NonTransport:{np.average(data1)}, {np.average(data2)}\n")
+
+                                alternate2 = 'greater'
+                                stat_mu, p_value_mu = mannwhitneyu(data1, data2,
+                                                                   alternative=alternate2)
+
+                                # Output the results
+                                print(f"Mann-Whitney U Test statistic: {stat_mu}")
+                                print(f"P-value: {p_value_mu}")
+                                file.write(f"Mann-Whitney U Test statistic: {stat_mu}  ")
+                                file.write(f"P-value: {p_value_mu}\n")
+
+                                # Interpretation
+                                alpha = 0.05
+                                if p_value_mu < alpha:
+                                    file.write("reject H0\n")
+                                else:
+                                    file.write("fail to reject H0\n")
+
 
 
 
 
 # data_preparation()
-# histogram_creation()
-construction_of_graphs()
+# histogram_creation(show_plot=False)
+# construction_of_graphs(show_plots=False)
 correlation_calculation()
