@@ -211,6 +211,10 @@ Chi-Square Statistic, P-value, Cramér's V: 21.077789912261196, 0.00030561896103
 Average Transport vs NonTransport:3.171875, 2.25
 Mann-Whitney U Test statistic: 3765.5  P-value: 9.534347183511202e-06
 reject H0
+Effect Size (r): 309.52219334916145
+Large effect
+One-Way ANOVA F-statistic: 21.57945646701539  P-value: 7.511962685972408e-06
+Significant difference between group means (reject H0)
 
 H5_Transport_[The_green_products_and_services_offered_by_our_company_are_superior_to_those_of_the_competition]
 Pearson c.c: -0.3861920985326627
@@ -229,6 +233,10 @@ Chi-Square Statistic, P-value, Cramér's V: 24.22873035393019, 7.186961602242061
 Average Transport vs NonTransport:3.296875, 2.2976190476190474
 Mann-Whitney U Test statistic: 3863.0  P-value: 1.560168831737145e-06
 reject H0
+Effect Size (r): 317.53664398029764
+Large effect
+One-Way ANOVA F-statistic: 25.591970699137566  P-value: 1.2482719334196774e-06
+Significant difference between group means (reject H0)
 
 H5_Transport_[We_have_a_better_green_reputation_than_the_competition]
 Pearson c.c: -0.3628102252198431
@@ -247,6 +255,10 @@ Chi-Square Statistic, P-value, Cramér's V: 19.722377138622544, 0.00056652303514
 Average Transport vs NonTransport:3.25, 2.3095238095238093
 Mann-Whitney U Test statistic: 3787.5  P-value: 6.478529512265532e-06
 reject H0
+Effect Size (r): 311.3305822095204
+Large effect
+One-Way ANOVA F-statistic: 22.13134005719941  P-value: 5.850029470180998e-06
+Significant difference between group means (reject H0)
 
 H5_Transport__[Our_company_has_a_competitive_advantage_in_environmental_protection_based_on_the_lowest_costs]
 Pearson c.c: -0.3909960087846025
@@ -265,6 +277,10 @@ Chi-Square Statistic, P-value, Cramér's V: 24.284520996529928, 7.00411614390887
 Average Transport vs NonTransport:3.21875, 2.2142857142857144
 Mann-Whitney U Test statistic: 3872.0  P-value: 1.2891933533789573e-06
 reject H0
+Effect Size (r): 318.2764394231717
+Large effect
+One-Way ANOVA F-statistic: 26.348232162696867  P-value: 8.952179593566561e-07
+Significant difference between group means (reject H0)
 
 H5_Transport_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]
 Pearson c.c: -0.2939200494919143
@@ -283,6 +299,10 @@ Chi-Square Statistic, P-value, Cramér's V: 14.269842617753623, 0.00648181158949
 Average Transport vs NonTransport:3.859375, 3.1547619047619047
 Mann-Whitney U Test statistic: 3601.0  P-value: 0.00013265262410624921
 reject H0
+Effect Size (r): 296.0003766432958
+Large effect
+One-Way ANOVA F-statistic: 13.805430626174122  P-value: 0.0002880721646143171
+Significant difference between group means (reject H0)
 
 H5_Transport_PROACTIVE_ORIENTATION_[We_anticipate_the_potential_of_new_technologies_practices]
 Pearson c.c: -0.32829260219586087
@@ -301,6 +321,10 @@ Chi-Square Statistic, P-value, Cramér's V: 19.47755347008065, 0.000633078867428
 Average Transport vs NonTransport:4.03125, 3.238095238095238
 Mann-Whitney U Test statistic: 3736.0  P-value: 1.3858752646440096e-05
 reject H0
+Effect Size (r): 307.09730828640744
+Large effect
+One-Way ANOVA F-statistic: 17.63604357626037  P-value: 4.631722202986657e-05
+Significant difference between group means (reject H0)
 
 H5_Transport_PROACTIVE_ORIENTATION_[We_systematically_try_to_acquire_and_implement_new_technologies]
 Pearson c.c: -0.3529145085968838
@@ -319,6 +343,10 @@ Chi-Square Statistic, P-value, Cramér's V: 20.58822190370904, 0.000382099498235
 Average Transport vs NonTransport:4.078125, 3.2261904761904763
 Mann-Whitney U Test statistic: 3783.5  P-value: 5.778323408244027e-06
 reject H0
+Effect Size (r): 311.0017842349097
+Large effect
+One-Way ANOVA F-statistic: 20.771117621863834  P-value: 1.0855541816091645e-05
+Significant difference between group means (reject H0)
 
 H5_Transport_PROACTIVE_ORIENTATION_[The_research_and_development_department_is_a_leader_in_the_field]
 Pearson c.c: -0.3230427011643053
@@ -337,6 +365,10 @@ Chi-Square Statistic, P-value, Cramér's V: 16.620656769652307, 0.00228999871651
 Average Transport vs NonTransport:3.609375, 2.8214285714285716
 Mann-Whitney U Test statistic: 3652.0  P-value: 5.8120454791646406e-05
 reject H0
+Effect Size (r): 300.19255081958244
+Large effect
+One-Way ANOVA F-statistic: 17.011303208689988  P-value: 6.213039465030224e-05
+Significant difference between group means (reject H0)
 
 H5_Transport_INNOVATION_[Research_activity]
 Pearson c.c: -0.33435213471083564
@@ -355,6 +387,10 @@ Chi-Square Statistic, P-value, Cramér's V: 16.886048974873507, 0.00203400572242
 Average Transport vs NonTransport:3.6875, 2.8452380952380953
 Mann-Whitney U Test statistic: 3680.0  P-value: 3.9046030371186264e-05
 reject H0
+Effect Size (r): 302.49413664185744
+Large effect
+One-Way ANOVA F-statistic: 18.37579165396353  P-value: 3.2778238024882665e-05
+Significant difference between group means (reject H0)
 
 H5_Transport_INNOVATION_[The_degree_of_product_novelty]
 Pearson c.c: -0.3048799359300941
@@ -373,6 +409,10 @@ Chi-Square Statistic, P-value, Cramér's V: 15.814714635854346, 0.00327813794411
 Average Transport vs NonTransport:3.859375, 3.0952380952380953
 Mann-Whitney U Test statistic: 3578.0  P-value: 0.00018220606609616844
 reject H0
+Effect Size (r): 294.1097882892842
+Large effect
+One-Way ANOVA F-statistic: 14.961673293124097  P-value: 0.00016477186690196487
+Significant difference between group means (reject H0)
 
 H5_Transport_INNOVATION_[Using_the_latest_technologies]
 Pearson c.c: -0.2995015398075802
@@ -391,6 +431,10 @@ Chi-Square Statistic, P-value, Cramér's V: 15.023963973828105, 0.00465177147057
 Average Transport vs NonTransport:3.96875, 3.261904761904762
 Mann-Whitney U Test statistic: 3551.5  P-value: 0.00027485580101602484
 reject H0
+Effect Size (r): 291.9315017074882
+Large effect
+One-Way ANOVA F-statistic: 14.38689226530799  P-value: 0.0002173422888198079
+Significant difference between group means (reject H0)
 
 H5_Transport_INNOVATION_[Speed_of_development_of_new_products]
 Pearson c.c: -0.33202746715652637
@@ -409,6 +453,10 @@ Chi-Square Statistic, P-value, Cramér's V: 17.480344478216818, 0.00155868394632
 Average Transport vs NonTransport:3.78125, 3.0
 Mann-Whitney U Test statistic: 3670.0  P-value: 4.0734928503945266e-05
 reject H0
+Effect Size (r): 301.67214170533066
+Large effect
+One-Way ANOVA F-statistic: 18.089605497918456  P-value: 3.745970846902727e-05
+Significant difference between group means (reject H0)
 
 H5_Transport_INNOVATION_[Share_of_new_products_within_the_range]
 Pearson c.c: -0.32691903545814505
@@ -427,6 +475,10 @@ Chi-Square Statistic, P-value, Cramér's V: 17.59550851590636, 0.001480165969574
 Average Transport vs NonTransport:3.828125, 3.0476190476190474
 Mann-Whitney U Test statistic: 3696.0  P-value: 2.7466815833551636e-05
 reject H0
+Effect Size (r): 303.80932854030027
+Large effect
+One-Way ANOVA F-statistic: 17.471151948307725  P-value: 5.0042973334040095e-05
+Significant difference between group means (reject H0)
 
 H3_PROACTIVE_ORIENTATION_[Technologies_used_are_the_latest]__[We_invest_more_than_competitors_in_R&D_and_innovations_for_environmental_protection]
 Pearson c.c: 0.4867593751363038

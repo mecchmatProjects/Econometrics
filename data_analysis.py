@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from openpyxl import load_workbook
 from matplotlib.colors import Normalize
 from matplotlib.cm import ScalarMappable
-from scipy.stats import pearsonr, ttest_1samp, probplot, shapiro, ttest_ind, ttest_rel, t, sem
+from scipy.stats import pearsonr, ttest_1samp, probplot, shapiro, ttest_ind, ttest_rel, t, sem, f_oneway
 
 INPUT_FILE = 'Data_Excel.xlsx'
 PREPARED_DATA_FILE = 'Data_Excel_Bins.xlsx'
@@ -545,6 +545,45 @@ def correlation_calculation():
                                     file.write("reject H0\n")
                                 else:
                                     file.write("fail to reject H0\n")
+
+                                # Calculate Effect Size (r = Z / sqrt(N))
+                                N = len(data1) + len(data2)  # Total sample size
+                                effect_size = stat_mu / np.sqrt(N)  # Effect size calculation
+
+                                # Output the Effect Size
+                                print(f"Effect Size (r): {effect_size}")
+                                file.write(f"Effect Size (r): {effect_size}\n")
+
+                                # Interpretation of Effect Size
+                                if effect_size < 0.1:
+                                    print("Negligible effect")
+                                    file.write("Negligible effect\n")
+                                elif 0.1 <= effect_size < 0.3:
+                                    print("Small effect")
+                                    file.write("Small effect\n")
+                                elif 0.3 <= effect_size < 0.5:
+                                    print("Medium effect")
+                                    file.write("Medium effect\n")
+                                else:
+                                    print("Large effect")
+                                    file.write("Large effect\n")
+
+                                # Perform One-Way ANOVA
+                                anova_stat, anova_p_value = f_oneway(data1, data2)
+
+                                # Output the results of One-Way ANOVA
+                                print(f"One-Way ANOVA F-statistic: {anova_stat}")
+                                print(f"P-value: {anova_p_value}")
+                                file.write(f"One-Way ANOVA F-statistic: {anova_stat}  ")
+                                file.write(f"P-value: {anova_p_value}\n")
+
+                                # Interpretation of ANOVA Results
+                                if anova_p_value < alpha:
+                                    print("Significant difference between group means (reject H0)")
+                                    file.write("Significant difference between group means (reject H0)\n")
+                                else:
+                                    print("No significant difference between group means (fail to reject H0)")
+                                    file.write("No significant difference between group means (fail to reject H0)\n")
 
 
 
